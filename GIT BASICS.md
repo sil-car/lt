@@ -1,8 +1,12 @@
 # Git Basics
 ### Preparations
-1. Create GitHub account.
+1. Create GitHub account and add your local system's ssh key. Follow this [guide](https://wastalinux.org/home/customizing/github-setup/) from the wasta devs. (But don't worry about step 4, "Contact the Wasta-Linux team".)
 2. Configure git on your system.
-3. Clone git repo to your system.
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+3. Clone git repo to your system. See the first command given below.
 
 ### Git Command Examples
 ```bash
