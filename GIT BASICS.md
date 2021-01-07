@@ -12,15 +12,18 @@ git config --global user.name "Your Name"
 ```bash
 # Clone remote repo "lt" locally via ssh.
 ~$ git clone git@github.com:n8marti/lt.git
-
-# Clone remote repo "lt" locally via https.
-~$ git clone https://github.com/n8marti/lt.git
 Cloning into 'lt'...
-remote: Enumerating objects: 10, done.
-remote: Counting objects: 100% (10/10), done.
-remote: Compressing objects: 100% (9/9), done.
-remote: Total 10 (delta 1), reused 6 (delta 0), pack-reused 0
-Unpacking objects: 100% (10/10), 13.54 KiB | 1.50 MiB/s, done.
+The authenticity of host 'github.com (140.82.121.4)' can\'t be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.4' (RSA) to the list of known hosts.
+remote: Enumerating objects: 28, done.
+remote: Counting objects: 100% (28/28), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 28 (delta 12), reused 19 (delta 6), pack-reused 0
+Receiving objects: 100% (28/28), 16.61 KiB | 27.00 KiB/s, done.
+Resolving deltas: 100% (12/12), done.
+~$
 
 # Change directory into local repo root.
 ~$ cd lt
