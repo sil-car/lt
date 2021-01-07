@@ -10,6 +10,9 @@ git config --global user.name "Your Name"
 
 ### Git Command Examples
 ```bash
+# Clone remote repo "lt" locally via ssh.
+~$ git clone git@github.com:n8marti/lt.git
+
 # Clone remote repo "lt" locally via https.
 ~$ git clone https://github.com/n8marti/lt.git
 Cloning into 'lt'...
