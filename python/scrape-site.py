@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
 """
-This script takes a URL as input and outputs a table of links from the URL:
+This script takes a URL as input and outputs a table of (.mp4) links from the URL:
  "URL Title" | "URL link"
 """
 
 import json
 import sys
+import urllib.parse
 import urllib.request
 
 from html.parser import HTMLParser
 
-input_url = sys.argv[1]
 
 class Parse(HTMLParser):
     def __init__(self):
@@ -20,8 +20,13 @@ class Parse(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
             for name, link in attrs:
-                if name == 'href':
-                    self.links.append(input_url + link)
+                if name == 'href' and link.endswith(".mp4"):
+                    self.links.append(
+                        {
+                            "url": input_url + link,
+                            "title": urllib.parse.unquote(link)
+                        }
+                    )
 
     def handle_endtag(self, tag):
         pass
@@ -30,8 +35,6 @@ class Parse(HTMLParser):
         pass
         #self.datas.append(data)
 
-
-print(f"\nLinks from: \"{input_url}\"")
 
 def getResponse(url):
     try:
@@ -48,10 +51,10 @@ def getResponse(url):
     return data
 
 
+input_url = sys.argv[1]
 data = getResponse(input_url)
-
 p = Parse()
 p.feed(data)
-#print(p.links)
+
 for l in p.links:
-    print(l)
+    print(f"[{l['title']}]({l['url']})")
