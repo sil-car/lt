@@ -81,4 +81,15 @@ Changes to be committed:
 
 # Periodically "push" the changes in your local repo to the remote repo.
 ~/lt$ git push
+Username for 'https://github.com': n8marti
+Password for 'https://n8marti@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 512 bytes | 512.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/n8marti/lt.git
+   0a1890f..79e6b3b  main -> main
 ```
