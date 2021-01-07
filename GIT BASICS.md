@@ -43,7 +43,7 @@ nothing to commit, working tree clean
 #   - add text
 #   - save file
 
-# Check local repo status.
+# A. Check local repo status to verify that a file has been created.
 ~/lt$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -55,11 +55,24 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ~/lt$
 
+# or B. Check local repo status to verify that a file has been modified.
+~/lt$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   GIT BASICS.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+~/lt$
+
 # If a new file has been created or modified, add (or "stage") it in preparation for a commit.
 ~/lt$ git add "GIT BASICS.md"
 ~/lt$
 
-# Check status again (new file added).
+# Check status to verify staging (new file added or existing file modified).
 ~/lt$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -70,18 +83,6 @@ Changes to be committed:
 
 ~/lt$
 
-# Check status again (existing file modified).
-~/lt$ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	modified:   GIT BASICS.md
-
-~/lt$
-
 # Commit changes to make them "official" in the local repo.
 ~/lt$ git commit -m "added GIT BASICS.md"
 [main 2d693bf] added GIT BASICS.md
@@ -89,7 +90,7 @@ Changes to be committed:
  create mode 100644 GIT BASICS.md
 ~/lt$
 
-# Check the status again.
+# Check status to verify commit.
 ~/lt$ git status
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
@@ -97,7 +98,7 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 ~/lt$
 
-# Periodically "push" the changes in your local repo up to the remote repo.
+# Periodically "push" the changes in your local repo up to the remote (online) repo.
 ~/lt$ git push
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
