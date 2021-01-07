@@ -6,7 +6,7 @@
 
 ### Git Command Examples
 ```bash
-# Clone "lt" repo via https.
+# Clone remote repo "lt" locally via https.
 ~$ git clone https://github.com/n8marti/lt.git
 Cloning into 'lt'...
 remote: Enumerating objects: 10, done.
@@ -15,11 +15,11 @@ remote: Compressing objects: 100% (9/9), done.
 remote: Total 10 (delta 1), reused 6 (delta 0), pack-reused 0
 Unpacking objects: 100% (10/10), 13.54 KiB | 1.50 MiB/s, done.
 
-# Change directory into repo root.
+# Change directory into local repo root.
 ~$ cd lt
 ~/lt$
 
-# Check repo status.
+# Check local repo status.
 ~/lt$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -27,13 +27,13 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 ~/lt$
 
-# Make changes to files, e.g.:
+# Add a file, e.g.:
 #   - create "GIT BASICS.md" and save to ~/lt
 #   - open "GIT BASICS.md"
 #   - add text
 #   - save file
 
-# Check repo status.
+# Check local repo status.
 ~/lt$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -43,10 +43,27 @@ Untracked files:
 	GIT BASICS.md
 
 nothing added to commit but untracked files present (use "git add" to track)
+~/lt$
 
-# If a new file has been created, add it to git tracking.
+# If a new file has been created or modified, add (or "stage") it in preparation for a commit.
 ~/lt$ git add "GIT BASICS.md"
+~/lt$
 
-# Commit changes to make them "official" in the repo.
-~/lt$ git commit -am "added GIT BASICS.md"
+# Check status again.
+~/lt$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   GIT BASICS.md
+~/lt$
+
+# Commit changes to make them "official" in the local repo.
+~/lt$ git commit -m "added GIT BASICS.md"
+[main 2d693bf] added GIT BASICS.md
+ 1 file changed, 52 insertions(+)
+ create mode 100644 GIT BASICS.md
+~/lt$
+
 ```
