@@ -49,7 +49,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ~/lt$ git add "GIT BASICS.md"
 ~/lt$
 
-# Check status again.
+# Check status again (new file added).
 ~/lt$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -57,6 +57,19 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
 	new file:   GIT BASICS.md
+
+~/lt$
+
+# Check status again (existing file modified).
+~/lt$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   GIT BASICS.md
+
 ~/lt$
 
 # Commit changes to make them "official" in the local repo.
@@ -66,4 +79,6 @@ Changes to be committed:
  create mode 100644 GIT BASICS.md
 ~/lt$
 
+# Periodically "push" the changes in your local repo to the remote repo.
+~/lt$ git push
 ```
