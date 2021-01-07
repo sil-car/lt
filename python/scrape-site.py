@@ -57,4 +57,4 @@ p = Parse()
 p.feed(data)
 
 for l in p.links:
-    print(f"[{l['title']}]({l['url']})")
+    print(f"[{l['title']}]({l['url']})\n")
