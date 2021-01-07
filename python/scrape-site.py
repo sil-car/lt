@@ -33,7 +33,6 @@ class Parse(HTMLParser):
 
     def handle_data(self, data):
         pass
-        #self.datas.append(data)
 
 
 def getResponse(url):
@@ -57,4 +56,4 @@ p = Parse()
 p.feed(data)
 
 for l in p.links:
-    print(f"[{l['title']}]({l['url']})\n")
+    print(f"[{l['title']}]({l['url']})  ")
