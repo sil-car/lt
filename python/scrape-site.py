@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 """
-This script takes a URL as input and outputs a table of (.mp4) links from the URL:
- "URL Title" | "URL link"
+This script takes a URL as input and outputs an MD-formatted list of (.mp4) links from the URL:
+ ["URL Title"]("URL link")
 """
 
 import json
@@ -55,5 +55,6 @@ data = getResponse(input_url)
 p = Parse()
 p.feed(data)
 
+print(f"### {input_url}")
 for l in p.links:
     print(f"[{l['title']}]({l['url']})  ")

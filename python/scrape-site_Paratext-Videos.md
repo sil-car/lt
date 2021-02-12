@@ -1,3 +1,4 @@
+### http://files.lingtransoft.info/Videos/Paratext%209%20on%20Vimeo
 [0.2.1b Basics of Project and Resources with search.mp4](http://files.lingtransoft.info/Videos/Paratext%209%20on%20Vimeo/0.2.1b%20Basics%20of%20Project%20and%20Resources%20with%20search.mp4)  
 [0.2.3b How to set the keyboard for a project.mp4](http://files.lingtransoft.info/Videos/Paratext%209%20on%20Vimeo/0.2.3b%20How%20to%20set%20the%20keyboard%20for%20a%20project.mp4)  
 [0.4.1 Receive first time.mp4](http://files.lingtransoft.info/Videos/Paratext%209%20on%20Vimeo/0.4.1%20Receive%20first%20time.mp4)  
