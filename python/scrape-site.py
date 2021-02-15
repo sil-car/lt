@@ -17,15 +17,19 @@ class Parse(HTMLParser):
     def __init__(self, filetypes):
         super().__init__()
         self.links = []
-        self.filetype = filetype
+        self.filetypes = filetypes
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
             for name, link in attrs:
                 end = link.split('.')[-1]
-                if name == 'href' and end in filetypes:
+                if name == 'href' and end in self.filetypes:
+                    if link[:4] != 'http':
+                        url_out = input_url + link
+                    else:
+                        url_out = link
                     self.links.append(
                         {
-                            "url": input_url + link,
+                            "url": url_out,
                             "title": urllib.parse.unquote(link)
                         }
                     )
