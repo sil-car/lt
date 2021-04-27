@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
-"""
-This script takes a URL as input and outputs an MD-formatted list of (.mp4) links from the URL:
- ["URL Title"]("URL link")
-"""
+"""This script takes a URL as input and outputs an MD-formatted list of (.mp4) links from the URL:
+ ["URL Title"]("URL link")"""
 
 import argparse
 import json
