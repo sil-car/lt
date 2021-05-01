@@ -59,11 +59,6 @@ def main():
         "-r", "--replace",
         help="the replacement term"
     )
-    p.add_argument(
-        "-y", "--yes",
-        action="store_true",
-        help="don't ask for confirmation when replacing"
-    )
     args = p.parse_args()
 
     # Handle commandline arguments.
