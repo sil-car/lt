@@ -22,19 +22,25 @@ def show_results(results, type):
             elif type == 'replace':
                 print(f"{l.strip()}")
 
-def update_lines(term, replace, lines):
-    fcomp = re.compile(rf"{term}")
+def update_lines(term, replace, lines, ignore_case):
+    flags = 0
+    if ignore_case:
+        flags = re.IGNORECASE
+    fcomp = re.compile(rf"{term}", flags=flags)
     updated_lines = {}
     for i, line in enumerate(lines):
         updated_line = replace_term(fcomp, replace, line)
         updated_lines[i] = updated_line
     return updated_lines
 
-def find_term(term, lines):
+def find_term(term, lines, ignore_case):
     findings = {}
     pattern = rf"{term}"
+    flags = 0
+    if ignore_case:
+        flags = re.IGNORECASE
     for i, line in enumerate(lines):
-        results = re.findall(pattern, line)
+        results = re.findall(pattern, line, flags=flags)
         if results:
             findings[i+1] = line
     return findings
@@ -56,8 +62,13 @@ def main():
         help="the file(s) to be searched",
     )
     p.add_argument(
+        "-i", "--ignore-case",
+        action="store_true",
+        help="make search case insensitive",
+    )
+    p.add_argument(
         "-r", "--replace",
-        help="the replacement term"
+        help="the replacement term",
     )
     args = p.parse_args()
 
@@ -66,13 +77,14 @@ def main():
         results = {}
         for file in args.files:
             lines = get_lines(file)
-            results[file] = find_term(args.term, lines)
+            results[file] = find_term(args.term, lines, args.ignore_case)
         show_results(results, 'find')
         return 0
 
     results = {}
     for file in args.files:
-        updated_lines = update_lines(args.term, args.replace, get_lines(file))
+        lines = get_lines(file)
+        updated_lines = update_lines(args.term, args.replace, lines, args.ignore_case)
         results[file] = updated_lines
     show_results(results, 'replace')
     return 0
