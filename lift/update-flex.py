@@ -1,17 +1,17 @@
 #!/bin/env python3
 
-# Update target DB with entries in source DB.
-#
-# Use 2 FLEx database SFM exports:
-#   source.db (LWC)
-#   target.db (minority language)
+"""
+Update target DB with entries in source DB.
+
+Use 2 FLEx database SFM exports:
+- source.db (LWC)
+- target.db (minority language)
+"""
 
 import argparse
-import sys
 import time
 
 from pathlib import Path
-from xml.dom import minidom
 from lxml import etree
 
 
@@ -20,8 +20,8 @@ def get_xml_tree(file_object):
     parser = etree.XMLParser(remove_blank_text=True)
     return etree.parse(file_object, parser)
 
-def get_lx_text_for_entry_lxml(entry):
-    return entry.find('lexical-unit').find('form').find('text').text
+def get_lx_text_for_sense(sense):
+    return sense.getparent().find('lexical-unit').find('form').find('text').text
 
 def get_cawl_from_field(field):
     cawl = None
@@ -41,57 +41,24 @@ def get_cawls(xml_tree):
 
 def get_glosses(xml_tree, cawl_str):
     glosses = []
-    fields = xml_tree.findall('.//field')
+    fields = xml_tree.findall('.//field[@type]')
     for field in fields:
         cawl = get_cawl_from_field(field)
         if cawl == cawl_str:
-            gloss = field.getparent().getparent().find('lexical-unit').find('form').find('text').text
+            gloss = get_lx_text_for_sense(field.getparent())
             glosses.append(gloss)
 
     return glosses
 
 def update_gloss(xml_tree, cawl_str, lang, glosses):
-    # Update an existing gloss field, or
-    # Add a new gloss field.
-    senses = xml_tree.findall('.//sense')
-    for sense in senses:
-        for field in sense.findall('field[@type]'):
-            if field.get('type') == 'CAWL':
-                c = field.find('form').find('text').text
-                if c == cawl_str:
-                    lx_text = sense.getparent().find('lexical-unit').find('form').find('text').text
-                    gloss_exists = False
-                    for g in sense.findall('gloss'):
-                        if g.get('lang') == lang:
-                            g_lang = g.find('text')
-                            gloss_exists = True
-                            break
-                    if gloss_exists:
-                        # print(f"Need to update gloss for {lang} in {cawl_str} of sense {sense.get('id')} in {lx_text}")
-                        g_lang.text = ' ; '.join(glosses)
-                    else:
-                        # print(f"Need new gloss for: {lang} in {cawl_str} of sense {sense.get('id')} in {lx_text}")
-                        gloss = etree.SubElement(sense, 'gloss')
-                        gloss.attrib['lang'] = lang
-                        gloss_text = etree.SubElement(gloss, 'text')
-                        gloss_text.text = ' ; '.join(glosses)
-                    # Stop looping through fields in this sense.
-                    break
-        # Stop looping through senses in this entry.
-        # break
-
-    return xml_tree
-
-def update_gloss(xml_tree, cawl_str, lang, glosses):
-    # Update an existing gloss field, or
-    # Add a new gloss field.
-    fields = xml_tree.findall('.//field')
+    """Update an existing gloss field or add a new gloss field in the given XML tree."""
+    fields = xml_tree.findall('.//field[@type]')
     for field in fields:
         if field.get('type') == 'CAWL':
             cawl = field.find('form').find('text').text
             if cawl == cawl_str:
                 sense = field.getparent()
-                lx_text = sense.getparent().find('lexical-unit').find('form').find('text').text
+                lx_text = get_lx_text_for_sense(sense)
                 gloss_exists = False
                 for g in sense.findall('gloss'):
                     if g.get('lang') == lang:
@@ -131,8 +98,8 @@ def save_xml_to_file(xml_tree, infile_path):
 
 def update_file(lang, source_xml, target_xml, target_file):
     target_cawls = get_cawls(target_xml)
-    g_times = []
-    u_times = []
+    # g_times = []
+    # u_times = []
     for cawl in target_cawls:
         print('.', end='', flush=True)
         # gs = time.perf_counter()
