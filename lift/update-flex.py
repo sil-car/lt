@@ -93,7 +93,7 @@ def get_outfile_object(old_file_obj):
 
 def save_xml_to_file(xml_tree, infile_path):
     outfile = get_outfile_object(infile_path)
-    xml_tree.write(outfile, encoding='UTF-8', pretty_print=True)
+    xml_tree.write(outfile, encoding='UTF-8', pretty_print=True, xml_declaration=True)
     print(f"Updated file saved as \"{outfile}\"")
 
 def update_file(lang, source_xml, target_xml, target_file):
@@ -152,7 +152,7 @@ def main():
 
     else: # print 1st file given to stdout
         target_xml = get_xml_tree(Path(args.target_db[0]))
-        print(etree.tostring(target_xml, encoding=str, pretty_print=True))
+        print(etree.tostring(target_xml, encoding='UTF-8', pretty_print=True, xml_declaration=True).decode())
 
 
 if __name__ == '__main__':
