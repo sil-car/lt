@@ -1,11 +1,12 @@
 #!/bin/env python3
 
 """
-Update target DB with entries in source DB.
+Update target LIFT file(s) with entries in source LIFT file.
 
-Use 2 FLEx database SFM exports:
-- source.db (LWC)
-- target.db (minority language)
+Use 2 FLEx database LIFT exports:
+- source.lift (LWC)
+- target.lift (minority language)
+- [target.lift...]
 """
 
 import argparse
