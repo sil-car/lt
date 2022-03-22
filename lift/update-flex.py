@@ -9,6 +9,7 @@ Use 2 FLEx database SFM exports:
 """
 
 import argparse
+import datetime
 import time
 
 from pathlib import Path
@@ -58,6 +59,7 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
             cawl = field.find('form').find('text').text
             if cawl == cawl_str:
                 sense = field.getparent()
+                entry = sense.getparent()
                 lx_text = get_lx_text_for_sense(sense)
                 gloss_exists = False
                 for g in sense.findall('gloss'):
@@ -76,8 +78,14 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
                     gloss.attrib['lang'] = lang
                     gloss_text = etree.SubElement(gloss, 'text')
                     gloss_text.text = ' ; '.join(glosses)
+                update_timestamp_for_entry(entry)
 
     return xml_tree
+
+def update_timestamp_for_entry(entry):
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+    timestamp = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
+    entry.attrib['dateModified'] = timestamp
 
 def get_unicode(text):
     unicode = "".join(map(lambda c: rf"\u{ord(c):04x}", text))
@@ -89,7 +97,7 @@ def get_lx_lang(xml_entry):
 def get_outfile_object(old_file_obj):
     new_file_name = f"{old_file_obj.stem}-updated.lift"
     new_file_obj = old_file_obj.with_name(new_file_name)
-    return(new_file_obj)
+    return new_file_obj
 
 def save_xml_to_file(xml_tree, infile_path):
     outfile = get_outfile_object(infile_path)
