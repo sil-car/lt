@@ -11,11 +11,27 @@ Use 2 FLEx database LIFT exports:
 
 import argparse
 import datetime
+import sys
 import time
 
 from pathlib import Path
 from lxml import etree
 
+
+def verify_venv():
+    bin_dir = Path(sys.prefix)
+    if bin_dir.name == 'usr':
+        script_dir = Path(__file__).parent
+        env_full_path = script_dir.resolve() / 'env'
+        if env_full_path.is_dir():
+            activate_path = env_full_path / 'bin' / 'activate'
+        else:
+            print(f"ERROR: Virtual environment not found at \"{env_full_path}\"")
+            exit(1)
+        # Virtual environment not activated.
+        print("ERROR: Need to activate virtual environment:")
+        print(f"$ . {activate_path}")
+        exit(1)
 
 def get_xml_tree(file_object):
     # Remove existing line breaks to allow pretty_print to work properly later.
@@ -141,6 +157,9 @@ def main():
         help="The target file(s) to be shown or updated.",
     )
     args = parser.parse_args()
+
+    # Verify virtual environment.
+    verify_venv()
 
     # Parse script arguments.
     if args.source_db: # update target file(s)
