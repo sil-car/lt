@@ -11,11 +11,33 @@
 # TODO: Consider adding:
 # - Insert song number on own line after song title.
 
-import string
+import argparse
+import re
 import sys
+import unicodedata
 
 from pathlib import Path
 
+
+def strip_non_printables(input_lines):
+    output_lines = []
+    all_chars = (chr(i) for i in range(sys.maxunicode))
+    control_chars = ''.join(c for c in all_chars if unicodedata.category(c) == 'Cc')
+    control_char_re = re.compile(f"[{re.escape(control_chars)}]")
+    for input_line in input_lines:
+        line = control_char_re.sub('', input_line)
+        output_lines.append(line + '\n') # add newlines back in
+    return output_lines
+
+def get_first_letter_indexes(s):
+    indexes = [0]
+    separators = ' -'
+    for i, c in enumerate(s):
+        if i == len(s) - 1:
+            break
+        if c in separators:
+            indexes.append(i+1)
+    return indexes
 
 def get_sfm(line):
     if line[0] == '\\':
@@ -172,22 +194,71 @@ def ensure_repeated_choruses(songs):
             output_lines.extend(text_block.get('lines'))
     return output_lines
 
+def ensure_title_case(input_lines):
+    output_lines = input_lines.copy()
+    for i, line in enumerate(input_lines):
+        if get_sfm(line) == '\s': # all titles are assumed to be \s lines
+            # text = line.split()[1:]
+            # updated_text = ['\s']
+            updated_line = ''
+            j_firsts = get_first_letter_indexes(line)
+            for j, c in enumerate(line):
+                if j not in j_firsts:
+                    c = c.lower()
+                updated_line += c
+            output_lines[i] = updated_line
+    return output_lines
 
-infile = Path(sys.argv[1])
-outfile = infile.with_suffix('.mod.sfm')
-with infile.open() as f:
-    lines = f.readlines()
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument(
+        "infile",
+        metavar="infile",
+        nargs=1,
+        help="the file to be cleaned up",
+    )
+    p.add_argument(
+        "-c", "--choruses",
+        action="store_true",
+        help="ensure choruses use \q2 SFM markers and put the chorus after every verse",
+    )
+    p.add_argument(
+        "-n", "--verse-numbers",
+        action="store_true",
+        help="ensure accurate verse numbering",
+    )
+    p.add_argument(
+        "-t", "--titles",
+        action="store_true",
+        help="ensure song titles use Title Case",
+    )
+    args = p.parse_args()
 
-# Strip non-printable characters.
-output_lines = []
-for line in lines:
-    output_line = ''.join([c for c in line if c in string.printable])
-    output_lines.append(output_line)
+    # Handle commandline arguments
+    if not args.verse_numbers and not args.choruses and not args.titles:
+        print(f"error: Please pass at least one option.")
+        p.print_help()
+        exit(1)
 
-# print(f"# of lines, initial: {len(lines)}")
-output_lines = ensure_verse_numbers(output_lines)
-# print(f"# of lines, versed: {len(output_lines)}")
-songs = get_songs(output_lines)
-output_lines = ensure_repeated_choruses(songs)
+    infile = Path(args.infile[0]) # only 1 infile allowed
+    outfile = infile.with_suffix('.mod.sfm')
+    with infile.open() as f:
+        original_lines = f.readlines()
 
-outfile.write_text(''.join(output_lines))
+    # Always strip non-printable characters.
+    lines = strip_non_printables(original_lines)
+
+    if args.verse_numbers:
+        lines = ensure_verse_numbers(lines)
+
+    if args.choruses:
+        lines = ensure_repeated_choruses(get_songs(lines))
+
+    if args.titles:
+        lines = ensure_title_case(lines)
+
+    # Write out new file.
+    outfile.write_text(''.join(lines))
+
+if __name__ == '__main__':
+    main()
