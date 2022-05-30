@@ -17,6 +17,9 @@ import time
 from pathlib import Path
 from lxml import etree
 
+SOURCE_CAWL_TYPE = ''
+TARGET_CAWL_TYPE = ''
+DEBUG = False
 
 def verify_venv():
     bin_dir = Path(sys.prefix)
@@ -39,31 +42,37 @@ def get_xml_tree(file_object):
     return etree.parse(file_object, parser)
 
 def get_lx_text_for_sense(sense):
-    return sense.getparent().find('lexical-unit').find('form').find('text').text
+    entry = sense.getparent()
+    lexical_unit = entry.find('lexical-unit')
+    form = lexical_unit.find('form')
+    lx_text = form.find('text')
+    return lx_text.text
 
-def get_cawl_from_field(field):
+def get_cawl_from_field(field, cawl_type):
     cawl = None
-    if field.get('type') == 'CAWL':
+    if field.get('type') == cawl_type:
         cawl = field.find('form').find('text').text
     return cawl
 
-def get_cawls(xml_tree):
+def get_cawls(xml_tree, cawl_type):
     cawls = []
     fields = xml_tree.findall('.//field[@type]')
     for field in fields:
-        cawl = get_cawl_from_field(field)
+        cawl = get_cawl_from_field(field, cawl_type)
         if cawl:
             cawls.append(cawl)
     cawls = list(set(cawls))
     return cawls
 
-def get_glosses(xml_tree, cawl_str):
+def get_glosses(xml_tree, cawl_str, cawl_type):
     glosses = []
     fields = xml_tree.findall('.//field[@type]')
     for field in fields:
-        cawl = get_cawl_from_field(field)
+        cawl = get_cawl_from_field(field, cawl_type)
         if cawl == cawl_str:
             gloss = get_lx_text_for_sense(field.getparent())
+            # if DEBUG:
+            #     print(f"{gloss=}")
             glosses.append(gloss)
 
     return glosses
@@ -72,12 +81,13 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
     """Update an existing gloss field or add a new gloss field in the given XML tree."""
     fields = xml_tree.findall('.//field[@type]')
     for field in fields:
-        if field.get('type') == 'CAWL':
+        if field.get('type') == TARGET_CAWL_TYPE:
             cawl = field.find('form').find('text').text
+            # if DEBUG:
+            #     print(f"{cawl=}")
             if cawl == cawl_str:
                 sense = field.getparent()
                 entry = sense.getparent()
-                lx_text = get_lx_text_for_sense(sense)
                 gloss_exists = False
                 for g in sense.findall('gloss'):
                     if g.get('lang') == lang:
@@ -86,11 +96,9 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
                         break
                 if gloss_exists:
                     # Update existing gloss.
-                    # print(f"Need to update gloss for {lang} in {cawl_str} of sense {sense.get('id')} in {lx_text}")
                     g_lang.text = ' ; '.join(glosses)
                 else:
                     # Create new gloss.
-                    # print(f"Need new gloss for: {lang} in {cawl_str} of sense {sense.get('id')} in {lx_text}")
                     gloss = etree.SubElement(sense, 'gloss')
                     gloss.attrib['lang'] = lang
                     gloss_text = etree.SubElement(gloss, 'text')
@@ -122,20 +130,28 @@ def save_xml_to_file(xml_tree, infile_path):
     print(f"Updated file saved as \"{outfile}\"")
 
 def update_file(lang, source_xml, target_xml, target_file):
-    target_cawls = get_cawls(target_xml)
+    target_cawls = get_cawls(target_xml, TARGET_CAWL_TYPE)
+    # if DEBUG:
+    #     print(f"{target_cawls=}")
     # g_times = []
     # u_times = []
     for cawl in target_cawls:
-        print('.', end='', flush=True)
+        if DEBUG:
+            print(f"{cawl=}")
+        else:
+            print('.', end='', flush=True)
         # gs = time.perf_counter()
-        updated_glosses = get_glosses(source_xml, cawl)
+        source_glosses = get_glosses(source_xml, cawl, SOURCE_CAWL_TYPE)
+        if DEBUG:
+            print(f"{source_glosses=}")
         # ge = time.perf_counter()
         # g_times.append(ge - gs)
         # us = time.perf_counter()
-        target_xml = update_gloss(target_xml, cawl, lang, updated_glosses)
+        target_xml = update_gloss(target_xml, cawl, lang, source_glosses)
         # ue = time.perf_counter()
         # u_times.append(ue - us)
-    print()
+    if not DEBUG:
+        print()
     # print(f"times: get: {sum(g_times)/len(g_times)}; upd: {sum(u_times)/len(u_times)}")
 
     # Create updated target file, preserving original.
@@ -156,17 +172,44 @@ def main():
         nargs='+',
         help="The target file(s) to be shown or updated.",
     )
+    parser.add_argument(
+        '-s', '--source-cawl-type',
+        help="The value used in the source's 'type' attribute to designate a CAWL entry. [CAWL]",
+    )
+    parser.add_argument(
+        '-t', '--target-cawl-type',
+        help="The value used in the target's 'type' attribute to designate a CAWL entry. [CAWL]",
+    )
+    parser.add_argument(
+        '-d', '--debug',
+        action='store_true',
+    )
     args = parser.parse_args()
 
     # Verify virtual environment.
     verify_venv()
 
+    # Set debug mode.
+    global DEBUG
+    DEBUG = True if args.debug else False
+
     # Parse script arguments.
     if args.source_db: # update target file(s)
+        # Set 'type' attribute for CAWL entries.
+        global SOURCE_CAWL_TYPE
+        SOURCE_CAWL_TYPE = args.source_cawl_type if args.source_cawl_type else 'CAWL'
+        global TARGET_CAWL_TYPE
+        TARGET_CAWL_TYPE = args.target_cawl_type if args.target_cawl_type else 'CAWL'
+        if DEBUG:
+            print(f"{SOURCE_CAWL_TYPE=}")
+            print(f"{TARGET_CAWL_TYPE=}")
+
         # Gather source file data.
         source_file = Path(args.source_db).resolve()
         source_xml = get_xml_tree(source_file)
         lang = get_lx_lang(source_xml.findall('entry')[0])
+        if DEBUG:
+            print(f"{lang=}")
 
         # Gather target files.
         target_files = [Path(f).resolve() for f in args.target_db]
@@ -175,6 +218,8 @@ def main():
         # Process files.
         print(f"Taking \"{lang}\" lexemes from \"{source_file}\" to update glosses in:\n{file_list}")
         for target_file in target_files:
+            if DEBUG:
+                print(f"{target_file=}")
             target_xml = get_xml_tree(target_file)
             update_file(lang, source_xml, target_xml, target_file)
 
