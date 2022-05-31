@@ -47,9 +47,12 @@ def get_text_for_lang_and_sense(sense, lang, location):
         entry = sense.getparent()
         lexical_unit = entry.find('lexical-unit')
         form = lexical_unit.find('form')
-        text = form.find('text').text
+        if form.get('lang') == lang:
+            text = form.find('text').text
     elif location == 'gloss':
-        glosses = sense.find('gloss') if sense.find('gloss') else []
+        glosses = sense.findall('gloss')
+        if glosses is None:
+            glosses = []
         for g in glosses:
             if g.get('lang') == lang:
                 text = g.find('text').text
@@ -73,7 +76,6 @@ def get_cawls(xml_tree, cawl_type):
     return cawls
 
 def get_glosses(xml_tree, cawl_str, cawl_type, lang):
-    # TODO: Handle "lang" found in glosses in addition to lexical-units.
     source_locations = [
         'lexical-unit',
         'gloss',
@@ -83,8 +85,8 @@ def get_glosses(xml_tree, cawl_str, cawl_type, lang):
     for field in fields:
         cawl = get_cawl_from_field(field, cawl_type)
         if cawl == cawl_str:
-            for src_loc in source_locations:
-                gloss = get_text_for_lang_and_sense(field.getparent(), lang, src_loc)
+            for loc in source_locations:
+                gloss = get_text_for_lang_and_sense(field.getparent(), lang, loc)
                 # if DEBUG:
                 #     print(f"{gloss=}")
                 if gloss:
@@ -98,11 +100,8 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
     for field in fields:
         if field.get('type') == TARGET_CAWL_TYPE:
             cawl = field.find('form').find('text').text
-            # if DEBUG:
-            #     print(f"{cawl=}")
             if cawl == cawl_str:
                 sense = field.getparent()
-                entry = sense.getparent()
                 gloss_exists = False
                 for g in sense.findall('gloss'):
                     if g.get('lang') == lang:
@@ -118,13 +117,15 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
                     gloss.attrib['lang'] = lang
                     gloss_text = etree.SubElement(gloss, 'text')
                     gloss_text.text = ' ; '.join(glosses)
-                update_timestamp_for_entry(entry)
+                update_timestamps(sense)
 
     return xml_tree
 
-def update_timestamp_for_entry(entry):
+def update_timestamps(sense):
     now_utc = datetime.datetime.now(datetime.timezone.utc)
     timestamp = now_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
+    sense.attrib['dateModified'] = timestamp
+    entry = sense.getparent()
     entry.attrib['dateModified'] = timestamp
 
 def get_unicode(text):
@@ -154,7 +155,8 @@ def update_file(lang, source_xml, target_xml, target_file):
         source_glosses = get_glosses(source_xml, cawl, SOURCE_CAWL_TYPE, lang)
         if DEBUG:
             print(f"{source_glosses=}")
-        target_xml = update_gloss(target_xml, cawl, lang, source_glosses)
+        if source_glosses:
+            target_xml = update_gloss(target_xml, cawl, lang, source_glosses)
     if not DEBUG:
         print()
 
@@ -178,7 +180,7 @@ def main():
     )
     parser.add_argument(
         '-l', '--lang',
-        help="The language whose text will be taken from the source file(s). Defaults to the language of the 'lexical-unit', but can be used to specify a language from the entry's glosses instead.",
+        help="The language whose text will be copied from the source file(s). Defaults to the language of the 'lexical-unit', but this can be used to specify a language from the entry's glosses instead.",
     )
     parser.add_argument(
         '-s', '--source-cawl-type',
