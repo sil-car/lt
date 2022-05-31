@@ -41,12 +41,20 @@ def get_xml_tree(file_object):
     parser = etree.XMLParser(remove_blank_text=True)
     return etree.parse(file_object, parser)
 
-def get_lx_text_for_sense(sense):
-    entry = sense.getparent()
-    lexical_unit = entry.find('lexical-unit')
-    form = lexical_unit.find('form')
-    lx_text = form.find('text')
-    return lx_text.text
+def get_text_for_lang_and_sense(sense, lang, location):
+    text = None
+    if location == 'lexical-unit':
+        entry = sense.getparent()
+        lexical_unit = entry.find('lexical-unit')
+        form = lexical_unit.find('form')
+        text = form.find('text').text
+    elif location == 'gloss':
+        glosses = sense.find('gloss') if sense.find('gloss') else []
+        for g in glosses:
+            if g.get('lang') == lang:
+                text = g.find('text').text
+                break
+    return text
 
 def get_cawl_from_field(field, cawl_type):
     cawl = None
@@ -64,16 +72,23 @@ def get_cawls(xml_tree, cawl_type):
     cawls = list(set(cawls))
     return cawls
 
-def get_glosses(xml_tree, cawl_str, cawl_type):
+def get_glosses(xml_tree, cawl_str, cawl_type, lang):
+    # TODO: Handle "lang" found in glosses in addition to lexical-units.
+    source_locations = [
+        'lexical-unit',
+        'gloss',
+    ]
     glosses = []
     fields = xml_tree.findall('.//field[@type]')
     for field in fields:
         cawl = get_cawl_from_field(field, cawl_type)
         if cawl == cawl_str:
-            gloss = get_lx_text_for_sense(field.getparent())
-            # if DEBUG:
-            #     print(f"{gloss=}")
-            glosses.append(gloss)
+            for src_loc in source_locations:
+                gloss = get_text_for_lang_and_sense(field.getparent(), lang, src_loc)
+                # if DEBUG:
+                #     print(f"{gloss=}")
+                if gloss:
+                    glosses.append(gloss)
 
     return glosses
 
@@ -119,43 +134,32 @@ def get_unicode(text):
 def get_lx_lang(xml_entry):
     return xml_entry.find('lexical-unit').find('form').get('lang', None)
 
-def get_outfile_object(old_file_obj):
-    new_file_name = f"{old_file_obj.stem}-updated.lift"
+def get_outfile_object(old_file_obj, lang):
+    new_file_name = f"{old_file_obj.stem}_updated-{lang}.lift"
     new_file_obj = old_file_obj.with_name(new_file_name)
     return new_file_obj
 
-def save_xml_to_file(xml_tree, infile_path):
-    outfile = get_outfile_object(infile_path)
+def save_xml_to_file(xml_tree, infile_path, lang):
+    outfile = get_outfile_object(infile_path, lang)
     xml_tree.write(outfile, encoding='UTF-8', pretty_print=True, xml_declaration=True)
     print(f"Updated file saved as \"{outfile}\"")
 
 def update_file(lang, source_xml, target_xml, target_file):
     target_cawls = get_cawls(target_xml, TARGET_CAWL_TYPE)
-    # if DEBUG:
-    #     print(f"{target_cawls=}")
-    # g_times = []
-    # u_times = []
     for cawl in target_cawls:
         if DEBUG:
             print(f"{cawl=}")
         else:
             print('.', end='', flush=True)
-        # gs = time.perf_counter()
-        source_glosses = get_glosses(source_xml, cawl, SOURCE_CAWL_TYPE)
+        source_glosses = get_glosses(source_xml, cawl, SOURCE_CAWL_TYPE, lang)
         if DEBUG:
             print(f"{source_glosses=}")
-        # ge = time.perf_counter()
-        # g_times.append(ge - gs)
-        # us = time.perf_counter()
         target_xml = update_gloss(target_xml, cawl, lang, source_glosses)
-        # ue = time.perf_counter()
-        # u_times.append(ue - us)
     if not DEBUG:
         print()
-    # print(f"times: get: {sum(g_times)/len(g_times)}; upd: {sum(u_times)/len(u_times)}")
 
     # Create updated target file, preserving original.
-    save_xml_to_file(target_xml, target_file)
+    save_xml_to_file(target_xml, target_file, lang)
 
 def main():
     # Define arguments and options.
@@ -171,6 +175,10 @@ def main():
         "target_db",
         nargs='+',
         help="The target file(s) to be shown or updated.",
+    )
+    parser.add_argument(
+        '-l', '--lang',
+        help="The language whose text will be taken from the source file(s). Defaults to the language of the 'lexical-unit', but can be used to specify a language from the entry's glosses instead.",
     )
     parser.add_argument(
         '-s', '--source-cawl-type',
@@ -207,7 +215,10 @@ def main():
         # Gather source file data.
         source_file = Path(args.source_db).resolve()
         source_xml = get_xml_tree(source_file)
-        lang = get_lx_lang(source_xml.findall('entry')[0])
+        if args.lang:
+            lang = args.lang
+        else:
+            lang = get_lx_lang(source_xml.findall('entry')[0])
         if DEBUG:
             print(f"{lang=}")
 
@@ -216,7 +227,7 @@ def main():
         file_list = '\n'.join([str(f) for f in target_files])
 
         # Process files.
-        print(f"Taking \"{lang}\" lexemes from \"{source_file}\" to update glosses in:\n{file_list}")
+        print(f"Taking \"{lang}\" text from lexical-units and/or glosses from \"{source_file}\" to update glosses in:\n{file_list}")
         for target_file in target_files:
             if DEBUG:
                 print(f"{target_file=}")
