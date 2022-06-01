@@ -87,11 +87,10 @@ def get_glosses(xml_tree, cawl_str, cawl_type, lang):
         if cawl == cawl_str:
             for loc in source_locations:
                 gloss = get_text_for_lang_and_sense(field.getparent(), lang, loc)
-                # if DEBUG:
-                #     print(f"{gloss=}")
-                if gloss:
+                if gloss is not None:
                     glosses.append(gloss)
-
+    glosses = list(set(glosses))
+    glosses.sort()
     return glosses
 
 def update_gloss(xml_tree, cawl_str, lang, glosses):
@@ -153,9 +152,9 @@ def update_file(lang, source_xml, target_xml, target_file):
         else:
             print('.', end='', flush=True)
         source_glosses = get_glosses(source_xml, cawl, SOURCE_CAWL_TYPE, lang)
-        if DEBUG:
-            print(f"{source_glosses=}")
         if source_glosses:
+            if DEBUG:
+                print(f"{source_glosses=}")
             target_xml = update_gloss(target_xml, cawl, lang, source_glosses)
     if not DEBUG:
         print()
