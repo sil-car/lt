@@ -109,6 +109,8 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
                         break
                 if gloss_exists:
                     # Update existing gloss.
+                    # TODO: Compare timestamps and only update if newer? Or maybe
+                    #   include an option "-u" to update instead of overwrite?
                     g_lang.text = ' ; '.join(glosses)
                 else:
                     # Create new gloss.
