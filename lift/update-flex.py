@@ -46,9 +46,10 @@ def get_text_for_lang_and_sense(sense, lang, location):
     if location == 'lexical-unit':
         entry = sense.getparent()
         lexical_unit = entry.find('lexical-unit')
-        form = lexical_unit.find('form')
-        if form.get('lang') == lang:
-            text = form.find('text').text
+        if lexical_unit:
+            form = lexical_unit.find('form')
+            if form.get('lang') == lang:
+                text = form.find('text').text
     elif location == 'gloss':
         glosses = sense.findall('gloss')
         if glosses is None:
@@ -62,7 +63,7 @@ def get_text_for_lang_and_sense(sense, lang, location):
 def get_cawl_from_field(field, cawl_type):
     cawl = None
     if field.get('type') == cawl_type:
-        cawl = field.find('form').find('text').text
+        cawl = field.find('form').find('text').text.strip()
     return cawl
 
 def get_cawls(xml_tree, cawl_type):
@@ -97,27 +98,34 @@ def update_gloss(xml_tree, cawl_str, lang, glosses):
     """Update an existing gloss field or add a new gloss field in the given XML tree."""
     fields = xml_tree.findall('.//field[@type]')
     for field in fields:
-        if field.get('type') == TARGET_CAWL_TYPE:
-            cawl = field.find('form').find('text').text
-            if cawl == cawl_str:
-                sense = field.getparent()
-                gloss_exists = False
-                for g in sense.findall('gloss'):
-                    if g.get('lang') == lang:
-                        g_lang = g.find('text')
-                        gloss_exists = True
-                        break
-                if gloss_exists:
-                    # Update existing gloss.
-                    # TODO: Compare timestamps and only update if newer? Or maybe
-                    #   include an option "-u" to update instead of overwrite?
-                    g_lang.text = ' ; '.join(glosses)
-                else:
-                    # Create new gloss.
-                    gloss = etree.SubElement(sense, 'gloss')
-                    gloss.attrib['lang'] = lang
-                    gloss_text = etree.SubElement(gloss, 'text')
-                    gloss_text.text = ' ; '.join(glosses)
+        # if field.get('type') == TARGET_CAWL_TYPE:
+        #     cawl = field.find('form').find('text').text.strip()
+        cawl = get_cawl_from_field(field, TARGET_CAWL_TYPE)
+        if cawl == cawl_str:
+            sense = field.getparent()
+            gloss_exists = False
+            updated = False
+            for g in sense.findall('gloss'):
+                if g.get('lang') == lang:
+                    g_lang = g.find('text')
+                    old_g_lang_text = g_lang.text
+                    gloss_exists = True
+                    break
+            if gloss_exists:
+                # Update existing gloss.
+                # TODO: Compare timestamps and only update if newer? Or maybe
+                #   include an option "-u" to update instead of overwrite?
+                g_lang.text = ' ; '.join(glosses)
+                if g_lang.text != old_g_lang_text:
+                    updated = True
+            else:
+                # Create new gloss.
+                gloss = etree.SubElement(sense, 'gloss')
+                gloss.attrib['lang'] = lang
+                gloss_text = etree.SubElement(gloss, 'text')
+                gloss_text.text = ' ; '.join(glosses)
+                updated = True
+            if updated:
                 update_timestamps(sense)
 
     return xml_tree
@@ -239,7 +247,11 @@ def main():
 
     else: # print 1st file given to stdout
         target_xml = get_xml_tree(Path(args.target_db[0]))
-        print(etree.tostring(target_xml, encoding='UTF-8', pretty_print=True, xml_declaration=True).decode())
+        print(
+            etree.tostring(
+                target_xml, encoding='UTF-8', pretty_print=True, xml_declaration=True
+            ).decode().rstrip()
+        )
 
 
 if __name__ == '__main__':
