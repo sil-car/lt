@@ -142,7 +142,14 @@ def get_unicode(text):
     return unicode
 
 def get_lx_lang(xml_entry):
-    return xml_entry.find('lexical-unit').find('form').get('lang', None)
+    lang = None
+    lexical_unit = xml_entry.find('lexical_unit')
+    if lexical_unit:
+        form = lexical_unit.find('form')
+        if form:
+            lang = form.get('lang')
+    # return xml_entry.find('lexical-unit').find('form').get('lang', None)
+    return lang
 
 def get_outfile_object(old_file_obj, lang):
     new_file_name = f"{old_file_obj.stem}_updated-{lang}.lift"
@@ -230,6 +237,9 @@ def main():
             lang = args.lang
         else:
             lang = get_lx_lang(source_xml.findall('entry')[0])
+            if not lang:
+                print(f"ERROR: Source language not found in {args.source_db}")
+                exit(1)
         if DEBUG:
             print(f"{lang=}")
 
