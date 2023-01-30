@@ -23,9 +23,13 @@ DEBUG = False
 
 def verify_venv():
     bin_dir = Path(sys.prefix)
+    if DEBUG:
+        print(f"DEBUG: {bin_dir = }")
     if bin_dir.name == 'usr':
         script_dir = Path(__file__).parent
         env_full_path = script_dir.resolve() / 'env'
+        if DEBUG:
+            print(f"DEBUG: {env_full_path = }")
         if env_full_path.is_dir():
             activate_path = env_full_path / 'bin' / 'activate'
         else:
@@ -212,12 +216,12 @@ def main():
     )
     args = parser.parse_args()
 
-    # Verify virtual environment.
-    verify_venv()
-
     # Set debug mode.
     global DEBUG
     DEBUG = True if args.debug else False
+
+    # Verify virtual environment.
+    verify_venv()
 
     # Parse script arguments.
     if args.source_db: # update target file(s)
