@@ -43,7 +43,7 @@ def verify_venv():
 def get_xml_tree(file_object):
     # Remove existing line breaks to allow pretty_print to work properly later.
     parser = etree.XMLParser(remove_blank_text=True)
-    return etree.parse(file_object, parser)
+    return etree.parse(str(file_object), parser)
 
 def get_text_for_lang_and_sense(sense, lang, location):
     text = None
