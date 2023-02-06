@@ -6,7 +6,10 @@ block_cipher = None
 
 a = Analysis(
     ['update-flex.py'],
-    pathex=['env/lib/python3.8/site-packages'],
+    pathex=[
+        'env/lib/python3.8/site-packages', # linux
+        'env/Lib/site-packages', # windows
+    ],
     binaries=[],
     datas=[('./data/icon.png', 'data')],
     hiddenimports=[],
