@@ -25,3 +25,5 @@ optional arguments:
                         designate a CAWL entry. [CAWL]
   -d, --debug
 ```
+
+> Window icon by VisualEditor team - https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FVisualEditor.git, MIT, https://commons.wikimedia.org/w/index.php?curid=26927402

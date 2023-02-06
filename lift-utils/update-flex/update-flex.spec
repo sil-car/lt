@@ -8,7 +8,7 @@ a = Analysis(
     ['update-flex.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('./data/icon.png', 'data')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
