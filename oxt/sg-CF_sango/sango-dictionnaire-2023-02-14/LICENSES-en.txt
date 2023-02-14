@@ -1,0 +1,5 @@
+LICENSES:
+    Spell checker: MIT
+
+    https://opensource.org/licenses/MIT
+    
