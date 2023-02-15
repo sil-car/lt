@@ -7,22 +7,28 @@
 #   - $ man hunspell
 #   - $ hunspell -h
 
-today=$(date +%Y-%m-%d)
+today=$(date +%Y%m%d)
+ver=$(date +%Y.%m.%d)
 langtag='sg-CF'
 lang='sango'
-ver='0.1'
 if [[ -n "$1" ]]; then
     name=$(basename "$1")
     langtag=$(echo "$name" | awk -F'_' '{print $1}')
     lang=$(echo "$name" | awk -F'_' '{print $2}')
-    all_txt=$(ls "$name" | grep 'all_.*\.txt')
-    ver_fmt=$(echo "$all_txt" | awk -F'_' '{print $2}')
-    ver="${ver_fmt%.*}"
+    infile=$(ls "$name" | grep 'all_.*\.txt')
+    if [[ -n "$2" ]]; then
+        echo "Doesn't work yet with nested files."
+        exit 1
+        if [[ ${2##*.} == 'aff' ]]; then
+            # Make OXT from passed AIF/DIC files.
+            infile="$2"
+        fi
+    fi
 fi
 
 makeoxt \
-    -d ./"${name}/${all_txt}" \
+    -d ./"${name}/${infile}" \
     -l "$lang" \
     -t west \
     -v "$ver" \
-    "$langtag" ./"${name}/${lang}-dictionnaire-${today}.oxt"
+    "$langtag" ./"${name}/dict-${lang}-${today}_lo.oxt"
