@@ -1,0 +1,24 @@
+
+SET UTF-8
+
+IGNORE -
+
+ICONV 14
+ICONV ä ä
+ICONV ê ê
+ICONV â â
+ICONV è è
+ICONV û û
+ICONV é é
+ICONV ç ç
+ICONV à à
+ICONV ë ë
+ICONV ô ô
+ICONV î î
+ICONV ö ö
+ICONV ü ü
+ICONV ï ï
+
+PFX A N 2
+PFX A   0  a    [^aeiou]
+PFX A   0  a-   [aeiou]
