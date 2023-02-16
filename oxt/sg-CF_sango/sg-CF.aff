@@ -19,6 +19,7 @@ ICONV ö ö
 ICONV ü ü
 ICONV ï ï
 
-PFX A N 2
+PFX A N 3
 PFX A   0  a    [^aeiou]
+PFX A   0  â    [^aeiou]
 PFX A   0  a-   [aeiou]
