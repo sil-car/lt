@@ -6,4 +6,4 @@ if [[ -z "$1" || ! -d "$1" ]]; then
 fi
 
 base_dir="${1%/}" # remove trailing slash
-find -L "${base_dir}/" -iname '*-wordlist.txt' -exec cat {} + | sort -u > "${base_dir}/all-wordlist.txt"
+find -L "${base_dir}/" -iname '*-wordlist.txt' -exec cat {} + | sort -u > "${base_dir}/wordlist.txt"

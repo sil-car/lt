@@ -8,5 +8,5 @@ fi
 # Ensure that wordlist has unique entries.
 words=$(cat "$1" | sort -u)
 word_ct=$(echo "$words" | wc -l)
-echo "$word_ct" > all-wordlist.dic
-echo "$words" >> all-wordlist.dic
+echo "$word_ct" > wordlist.dic
+echo "$words" >> wordlist.dic
