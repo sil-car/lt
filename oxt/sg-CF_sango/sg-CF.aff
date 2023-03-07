@@ -4,20 +4,20 @@ SET UTF-8
 IGNORE -
 
 ICONV 14
-ICONV ä ä
-ICONV ê ê
-ICONV â â
-ICONV è è
-ICONV û û
-ICONV é é
-ICONV ç ç
 ICONV à à
+ICONV â â
+ICONV ä ä
+ICONV ç ç
+ICONV è è
+ICONV é é
+ICONV ê ê
 ICONV ë ë
-ICONV ô ô
 ICONV î î
-ICONV ö ö
-ICONV ü ü
 ICONV ï ï
+ICONV ô ô
+ICONV ö ö
+ICONV û û
+ICONV ü ü
 
 PFX A N 3
 PFX A   0  a    [^aeiou]
