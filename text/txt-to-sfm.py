@@ -14,6 +14,12 @@ def has_footnotes(text):
     return matched_string is not None
 
 
+# Handle args.
+if '-h' in sys.argv or '--help' in sys.argv:
+    print(f"{sys.argv[0]} INFILE.txt")
+    print("\nThis script will add SFM markers to text in INFILE.txt and output INFILE.sfm.")
+    exit()
+
 # Handle infile and outfile.
 txt_file = Path(sys.argv[1]).expanduser().resolve()
 sfm_file = txt_file.with_suffix('.sfm')
