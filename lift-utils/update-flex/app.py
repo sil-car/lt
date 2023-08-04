@@ -72,9 +72,9 @@ class App():
             target_files = [Path(f).resolve() for f in self.args.target_db]
             if self.debug:
                 print(f"DEBUG: {target_files = }")
-            file_list = '\n'.join([str(f) for f in target_files])
 
             # Process files.
+            file_list = '\n'.join([str(f) for f in target_files])
             print(f"Taking \"{self.lang}\" text from lexical-units and/or glosses from \"{self.source_file}\" to update glosses in:\n{file_list}")
             for target_file in target_files:
                 if self.debug:
