@@ -1,0 +1,7 @@
+\check Test a CMS script
+\submenu Admin
+\script Test.py
+\description Test a CMS script.
+\toText
+\utf8
+
