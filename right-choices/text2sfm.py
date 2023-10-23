@@ -6,8 +6,22 @@ import sys
 
 from pathlib import Path
 
-# def seqchap(m):
-#     t.setdefault(m.group(0))
+situation = {
+    'en': "A Situation and a Choice:",
+    'sg': "Soro oko na popo ni:",
+}
+memory_verse = {
+    'en': "Memory Verse:",
+    'sg': "Bata sura so na li ti mo:",
+}
+think = {
+    'en': "Think and Explore:",
+    'sg': "Gbu li ti mo na mo gi ndani:",
+}
+read = {
+    'en': "Read the Story in Your Bible:",
+    'sg': "Diko mbaye ni na ya ti mbeti ti Nzapa ti mo:",
+}
 
 infiles = sys.argv[1:]
 for infile in infiles:
@@ -23,15 +37,14 @@ for infile in infiles:
     text = re.sub(r'\n{2}\d+\n{2}\d+\n{2}', r'\n', text) # double group
     text = re.sub(r'\n{2}\d+\n{2}', r'\n', text) # single group
     # Re-add 2x newline before "memory verse" (English).
-    text = re.sub(r'(?<=\pP\n)(?=Memory Verse:)', r'\n', text)
+    text = re.sub(r'(?<=\pP\n)(?=%s)' % memory_verse.get('en'), r'\n', text)
     # Re-add 2x newline before "memory verse" (Sango).
-    text = re.sub(r'(?<=\pP\n)(?=Bata sura so na li ti mo:)', r'\n', text)
+    text = re.sub(r'(?<=\pP\n)(?=%s)' % memory_verse.get('sg'), r'\n', text)
     # Re-add 2x newline after memory verse reference.
     text = re.sub(r'(?<=\(.*[\db]\)\n)(?!\n)', r'\n', text)
-    # Ensure 2x newline before lesson title (English)
-    text = re.sub(r'(?<=\S\n)(.+\n{2})(?=A Situation and a Choice:)', r'\n\n\1', text)
-    # Ensure 2x newline before lesson title (Sango).
-    text = re.sub(r'(?<=\S\n)(.+\n{2})(?=Soro oko na popo ni:)', r'\n\n\1', text)
+    # Ensure 2x newline before lesson title.
+    text = re.sub(r'(?<=\S\n)(.+\n{2})(?=%s)' % situation.get('en'), r'\n\n\1', text)
+    text = re.sub(r'(?<=\S\n)(.+\n{2})(?=%s)' % situation.get('sg'), r'\n\n\1', text)
     # Add 2x newline after line-ending colons that should stay end-of-line.
     end_words = [
         'Choice:',
@@ -56,14 +69,11 @@ for infile in infiles:
         text = re.sub(r'(?<=%s\n)\n' % w, r'', text)
     # Remove extra 2x newline after Bible Verse (Sango).
     text = re.sub(r'(?<=mbeti ti Nzapa ti mo:\n)\n', r'', text)
-    # Put Memory Verse reference back on own line (English).
-    text = re.sub(r'(?<=Memory Verse:\n.* )(?=\()', r'\n', text)
-    # Put Memory Verse reference back on own line (Sango).
-    text = re.sub(r'(?<=Bata sura so na li ti mo:\n.* )(?=\()', r'\n', text)
+    # Put Memory Verse reference back on own line.
+    text = re.sub(r'(?<=%s\n.* )(?=\()' % memory_verse.get('en'), r'\n', text)
+    text = re.sub(r'(?<=%s\n.* )(?=\()' % memory_verse.get('sg'), r'\n', text)
     # Squeeze 3+ newlines into 2.
     text = re.sub(r'\n{3,}', r'\n\n', text)
-    # Add \c markers before each lesson.
-    # Add \v markers: 1: prose; 2: study page
-    # Add other markers...
+    # Add \c markers manually before each lesson.
 
     outfile.write_text(text)
