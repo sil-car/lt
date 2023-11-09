@@ -1,0 +1,3385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellingStatus>
+  <Status Word="ve" State="W">
+    <Correction>Eve</Correction>
+  </Status>
+  <Status Word="eve" State="R">
+    <SpecificCase>Eve</SpecificCase>
+  </Status>
+  <Status Word="dam" State="W">
+    <Correction>Adam</Correction>
+  </Status>
+  <Status Word="adam" State="R">
+    <SpecificCase>Adam</SpecificCase>
+  </Status>
+  <Status Word="ndeke" State="R" />
+  <Status Word="wabatango" State="R" />
+  <Status Word="mozoko" State="R" />
+  <Status Word="abamara" State="R" />
+  <Status Word="batango" State="R" />
+  <Status Word="yu" State="R" />
+  <Status Word="abongo" State="R" />
+  <Status Word="atêne" State="R" />
+  <Status Word="mvingi" State="R" />
+  <Status Word="mbo" State="R" />
+  <Status Word="akeke" State="R" />
+  <Status Word="ngonda" State="R" />
+  <Status Word="zeme" State="R" />
+  <Status Word="likongo" State="R" />
+  <Status Word="vala" State="R" />
+  <Status Word="ahe" State="R" />
+  <Status Word="têne" State="R" />
+  <Status Word="goliat" State="R">
+    <SpecificCase>Goliat</SpecificCase>
+  </Status>
+  <Status Word="bingo" State="R" />
+  <Status Word="wato" State="R" />
+  <Status Word="yo" State="R" />
+  <Status Word="atanga" State="R" />
+  <Status Word="ngbö" State="W">
+    <Correction>ngbo</Correction>
+  </Status>
+  <Status Word="ngbo" State="R" />
+  <Status Word="andoye" State="R" />
+  <Status Word="wayere" State="R" />
+  <Status Word="nengo" State="R" />
+  <Status Word="seleka" State="R" />
+  <Status Word="mikal" State="R">
+    <SpecificCase>Mikal</SpecificCase>
+  </Status>
+  <Status Word="agbian" State="R" />
+  <Status Word="fenetere" State="R" />
+  <Status Word="yanga-da" State="R" />
+  <Status Word="aso" State="R" />
+  <Status Word="tomboka" State="R" />
+  <Status Word="seni" State="R" />
+  <Status Word="abuba" State="R" />
+  <Status Word="fafadeso" State="R" />
+  <Status Word="yongo" State="R" />
+  <Status Word="gbogbo" State="R" />
+  <Status Word="kubu" State="R" />
+  <Status Word="yanda" State="R" />
+  <Status Word="poro" State="R" />
+  <Status Word="ngasa" State="R" />
+  <Status Word="mba" State="R" />
+  <Status Word="abia" State="R" />
+  <Status Word="jonatan" State="R">
+    <SpecificCase>Jonatan</SpecificCase>
+  </Status>
+  <Status Word="maa" State="R" />
+  <Status Word="hondengo" State="R" />
+  <Status Word="honde" State="R" />
+  <Status Word="amba" State="R" />
+  <Status Word="deba" State="R" />
+  <Status Word="ahonde" State="R" />
+  <Status Word="ndeko" State="R" />
+  <Status Word="abira" State="R" />
+  <Status Word="aka" State="R" />
+  <Status Word="kamene" State="R" />
+  <Status Word="akokora" State="R" />
+  <Status Word="kpo" State="R" />
+  <Status Word="lawa" State="R" />
+  <Status Word="awakengo" State="R" />
+  <Status Word="woko" State="R" />
+  <Status Word="wu" State="R" />
+  <Status Word="nob" State="R">
+    <SpecificCase>Nob</SpecificCase>
+  </Status>
+  <Status Word="titi" State="W">
+    <Correction>ti ti</Correction>
+  </Status>
+  <Status Word="ti ti" State="R" />
+  <Status Word="ahimelek" State="R">
+    <SpecificCase>Ahimelek</SpecificCase>
+  </Status>
+  <Status Word="mapa" State="R" />
+  <Status Word="kuingo" State="R" />
+  <Status Word="loro" State="R" />
+  <Status Word="grisa" State="W">
+    <Correction>girisa</Correction>
+  </Status>
+  <Status Word="girisa" State="R" />
+  <Status Word="mokonzi" State="W">
+    <Correction>makonzi</Correction>
+  </Status>
+  <Status Word="makonzi" State="R" />
+  <Status Word="awayango-sandaga" State="R" />
+  <Status Word="kopo" State="R" />
+  <Status Word="wen" State="R" />
+  <Status Word="bembengo" State="R" />
+  <Status Word="sigingo" State="R" />
+  <Status Word="gango" State="R" />
+  <Status Word="akono" State="R" />
+  <Status Word="asango" State="R" />
+  <Status Word="wande" State="R" />
+  <Status Word="adiko" State="R" />
+  <Status Word="akoya" State="R" />
+  <Status Word="wakamba" State="R" />
+  <Status Word="abishai" State="R">
+    <SpecificCase>Abishai</SpecificCase>
+  </Status>
+  <Status Word="dengbe" State="R" />
+  <Status Word="gad" State="R" />
+  <Status Word="tuku" State="R" />
+  <Status Word="gbako" State="R" />
+  <Status Word="heret" State="R" />
+  <Status Word="dutingo" State="R" />
+  <Status Word="mbilimbili" State="W">
+    <Correction>mbirimbiri</Correction>
+  </Status>
+  <Status Word="mbirimbiri" State="R" />
+  <Status Word="kogara" State="R" />
+  <Status Word="gbogbolinda" State="R" />
+  <Status Word="abiatar" State="R">
+    <SpecificCase>Abiatar</SpecificCase>
+  </Status>
+  <Status Word="efod" State="R" />
+  <Status Word="keila" State="R" />
+  <Status Word="asoo" State="R" />
+  <Status Word="ziango" State="R" />
+  <Status Word="bamara" State="R" />
+  <Status Word="koya" State="R" />
+  <Status Word="yengere" State="R" />
+  <Status Word="kangbi" State="R" />
+  <Status Word="awa" State="R" />
+  <Status Word="ayu" State="R" />
+  <Status Word="atiri" State="R" />
+  <Status Word="gbian" State="R" />
+  <Status Word="adu" State="R" />
+  <Status Word="agonda" State="R" />
+  <Status Word="angoi" State="R" />
+  <Status Word="agi" State="R" />
+  <Status Word="hange" State="R" />
+  <Status Word="amai" State="R" />
+  <Status Word="legeni" State="R" />
+  <Status Word="nabal" State="R" />
+  <Status Word="kapa" State="R" />
+  <Status Word="awu" State="R" />
+  <Status Word="balao" State="R" />
+  <Status Word="agodobe" State="R" />
+  <Status Word="bâbâ" State="R" />
+  <Status Word="abigail" State="R" />
+  <Status Word="fige" State="R" />
+  <Status Word="abe" State="R" />
+  <Status Word="likunu" State="R" />
+  <Status Word="lego" State="R" />
+  <Status Word="azonga" State="R" />
+  <Status Word="atuku" State="R" />
+  <Status Word="mene" State="R" />
+  <Status Word="ndu" State="R" />
+  <Status Word="lele" State="R" />
+  <Status Word="alele" State="R" />
+  <Status Word="afuta" State="R" />
+  <Status Word="ane" State="R" />
+  <Status Word="ahingango" State="R" />
+  <Status Word="anzoni" State="R" />
+  <Status Word="aaron" State="R">
+    <SpecificCase>Aaron</SpecificCase>
+  </Status>
+  <Status Word="abel" State="R">
+    <SpecificCase>Abel</SpecificCase>
+  </Status>
+  <Status Word="gbia" State="R" />
+  <Status Word="jesus" State="R">
+    <SpecificCase>Jesus</SpecificCase>
+  </Status>
+  <Status Word="israel" State="R">
+    <SpecificCase>Israel</SpecificCase>
+  </Status>
+  <Status Word="david" State="R">
+    <SpecificCase>David</SpecificCase>
+  </Status>
+  <Status Word="jerusalem" State="R">
+    <SpecificCase>Jerusalem</SpecificCase>
+  </Status>
+  <Status Word="moïse" State="R">
+    <SpecificCase>Moïse</SpecificCase>
+  </Status>
+  <Status Word="saul" State="R">
+    <SpecificCase>Saul</SpecificCase>
+  </Status>
+  <Status Word="samuel" State="R">
+    <SpecificCase>Samuel</SpecificCase>
+  </Status>
+  <Status Word="jacob" State="R">
+    <SpecificCase>Jacob</SpecificCase>
+  </Status>
+  <Status Word="juda" State="R">
+    <SpecificCase>Juda</SpecificCase>
+  </Status>
+  <Status Word="jean" State="R">
+    <SpecificCase>Jean</SpecificCase>
+  </Status>
+  <Status Word="jeremie" State="R">
+    <SpecificCase>Jeremie</SpecificCase>
+  </Status>
+  <Status Word="salomon" State="R" />
+  <Status Word="daniel" State="R">
+    <SpecificCase>Daniel</SpecificCase>
+  </Status>
+  <Status Word="absalom" State="R">
+    <SpecificCase>Absalom</SpecificCase>
+  </Status>
+  <Status Word="marie" State="R">
+    <SpecificCase>Marie</SpecificCase>
+  </Status>
+  <Status Word="elisee" State="R">
+    <SpecificCase>Elisee</SpecificCase>
+  </Status>
+  <Status Word="abner" State="R">
+    <SpecificCase>Abner</SpecificCase>
+  </Status>
+  <Status Word="jude" State="R">
+    <SpecificCase>Jude</SpecificCase>
+  </Status>
+  <Status Word="jacques" State="R">
+    <SpecificCase>Jacques</SpecificCase>
+  </Status>
+  <Status Word="jaques" State="W">
+    <Correction>Jacques</Correction>
+  </Status>
+  <Status Word="philemon" State="R">
+    <SpecificCase>Philemon</SpecificCase>
+  </Status>
+  <Status Word="tite" State="R">
+    <SpecificCase>Tite</SpecificCase>
+  </Status>
+  <Status Word="matthieu" State="R">
+    <SpecificCase>Matthieu</SpecificCase>
+  </Status>
+  <Status Word="marc" State="R">
+    <SpecificCase>Marc</SpecificCase>
+  </Status>
+  <Status Word="luc" State="R">
+    <SpecificCase>Luc</SpecificCase>
+  </Status>
+  <Status Word="artemis" State="R">
+    <SpecificCase>Artemis</SpecificCase>
+  </Status>
+  <Status Word="paul" State="R">
+    <SpecificCase>Paul</SpecificCase>
+  </Status>
+  <Status Word="ananias" State="R">
+    <SpecificCase>Ananias</SpecificCase>
+  </Status>
+  <Status Word="herode" State="R">
+    <SpecificCase>Herode</SpecificCase>
+  </Status>
+  <Status Word="tingo" State="R" />
+  <Status Word="afilistii" State="R" />
+  <Status Word="gingo" State="R" />
+  <Status Word="hunzi" State="R" />
+  <Status Word="apasi" State="R" />
+  <Status Word="walombe" State="R" />
+  <Status Word="vukongo" State="R" />
+  <Status Word="zingo" State="R" />
+  <Status Word="hara" State="R" />
+  <Status Word="amingo" State="R" />
+  <Status Word="ta" State="R" />
+  <Status Word="angangu" State="R" />
+  <Status Word="kangango" State="R" />
+  <Status Word="atoro" State="R" />
+  <Status Word="nganga" State="R" />
+  <Status Word="en-dor" State="R" />
+  <Status Word="kengo" State="R" />
+  <Status Word="ahoto" State="R" />
+  <Status Word="anganga" State="R" />
+  <Status Word="gbanda" State="R" />
+  <Status Word="ngii" State="R" />
+  <Status Word="guru" State="R" />
+  <Status Word="adekongo" State="R" />
+  <Status Word="ape-oo" State="R" />
+  <Status Word="akara" State="R" />
+  <Status Word="atisa" State="R" />
+  <Status Word="awoko" State="R" />
+  <Status Word="gboto" State="R" />
+  <Status Word="agboto" State="R" />
+  <Status Word="lengo-gbia" State="R" />
+  <Status Word="asu" State="R" />
+  <Status Word="ambai" State="R" />
+  <Status Word="atara" State="R" />
+  <Status Word="lando" State="R" />
+  <Status Word="kpoto" State="R" />
+  <Status Word="mua" State="R" />
+  <Status Word="dema" State="R" />
+  <Status Word="bia" State="R" />
+  <Status Word="totongo" State="R" />
+  <Status Word="kokora" State="R" />
+  <Status Word="he" State="R" />
+  <Status Word="awalombe" State="R" />
+  <Status Word="mingo" State="R" />
+  <Status Word="apialo" State="R" />
+  <Status Word="abibe" State="R" />
+  <Status Word="ayamba" State="R" />
+  <Status Word="matabisi" State="R" />
+  <Status Word="alu" State="R" />
+  <Status Word="akpale" State="R" />
+  <Status Word="jourdain" State="R">
+    <SpecificCase>Jourdain</SpecificCase>
+  </Status>
+  <Status Word="mbela" State="R" />
+  <Status Word="ale-gbia" State="R" />
+  <Status Word="mayere" State="R" />
+  <Status Word="abi" State="R" />
+  <Status Word="aku" State="R" />
+  <Status Word="gabaon" State="R">
+    <SpecificCase>Gabaon</SpecificCase>
+  </Status>
+  <Status Word="asael" State="R">
+    <SpecificCase>Asael</SpecificCase>
+  </Status>
+  <Status Word="atumba" State="R" />
+  <Status Word="ngbonda" State="R" />
+  <Status Word="mai" State="R" />
+  <Status Word="ishebaal" State="R">
+    <SpecificCase>Ishebaal</SpecificCase>
+  </Status>
+  <Status Word="kuku" State="R" />
+  <Status Word="beoko" State="R" />
+  <Status Word="amakonzi" State="R" />
+  <Status Word="dodoro" State="R" />
+  <Status Word="ninga" State="R" />
+  <Status Word="palase" State="W">
+    <Correction>plase</Correction>
+  </Status>
+  <Status Word="tisango" State="R" />
+  <Status Word="hebron" State="R">
+    <SpecificCase>Hebron</SpecificCase>
+  </Status>
+  <Status Word="akpo" State="R" />
+  <Status Word="kuru" State="R" />
+  <Status Word="mbata" State="R" />
+  <Status Word="akpengba" State="R" />
+  <Status Word="de" State="R" />
+  <Status Word="watongoro" State="R" />
+  <Status Word="do" State="R" />
+  <Status Word="hundango" State="R" />
+  <Status Word="kinda" State="R" />
+  <Status Word="bara" State="R" />
+  <Status Word="maka" State="R" />
+  <Status Word="ha" State="R" />
+  <Status Word="awaziba" State="R" />
+  <Status Word="harango" State="R" />
+  <Status Word="afungo" State="R" />
+  <Status Word="awabatango" State="R" />
+  <Status Word="ayanga" State="R" />
+  <Status Word="polele" State="R" />
+  <Status Word="abango-li" State="R" />
+  <Status Word="lekengo" State="R" />
+  <Status Word="kiriat-yearim" State="R">
+    <SpecificCase>Kiriat-Yearim</SpecificCase>
+  </Status>
+  <Status Word="tambulango" State="R" />
+  <Status Word="pusu" State="R" />
+  <Status Word="bagara" State="R" />
+  <Status Word="ayoro" State="R" />
+  <Status Word="awayango" State="R" />
+  <Status Word="wapikango" State="R" />
+  <Status Word="ayo" State="R" />
+  <Status Word="lévi" State="R">
+    <SpecificCase>Lévi</SpecificCase>
+  </Status>
+  <Status Word="hengo" State="R" />
+  <Status Word="maingo" State="R" />
+  <Status Word="batsheba" State="R">
+    <SpecificCase>Batsheba</SpecificCase>
+  </Status>
+  <Status Word="urii" State="R">
+    <SpecificCase>Urii</SpecificCase>
+  </Status>
+  <Status Word="ndoni" State="R" />
+  <Status Word="tengbi" State="R" />
+  <Status Word="diko" State="R" />
+  <Status Word="akporo" State="R" />
+  <Status Word="watokua" State="R" />
+  <Status Word="pikango" State="R" />
+  <Status Word="ase" State="R" />
+  <Status Word="molenge-koli" State="R" />
+  <Status Word="kate" State="R" />
+  <Status Word="natan" State="R" />
+  <Status Word="wamosoro" State="R" />
+  <Status Word="gene" State="R" />
+  <Status Word="angoro" State="R" />
+  <Status Word="mbana" State="R" />
+  <Status Word="Nathan" State="W">
+    <Correction>natan</Correction>
+  </Status>
+  <Status Word="sukula" State="R" />
+  <Status Word="lani" State="R" />
+  <Status Word="yenga" State="R" />
+  <Status Word="gbaa" State="R" />
+  <Status Word="abara" State="R" />
+  <Status Word="sepela" State="R" />
+  <Status Word="akodro" State="R" />
+  <Status Word="amnon" State="R" />
+  <Status Word="yekia" State="R" />
+  <Status Word="tisa" State="R" />
+  <Status Word="asepela" State="R" />
+  <Status Word="yaya" State="R" />
+  <Status Word="andaa" State="R" />
+  <Status Word="samba" State="R" />
+  <Status Word="gbengba" State="R" />
+  <Status Word="anzee" State="R" />
+  <Status Word="asuru" State="R" />
+  <Status Word="kirikiri" State="R" />
+  <Status Word="geshur" State="R" />
+  <Status Word="atoto" State="R" />
+  <Status Word="orze" State="R" />
+  <Status Word="ne" State="R" />
+  <Status Word="yamba" State="R" />
+  <Status Word="ambarata" State="R" />
+  <Status Word="waporoso" State="R" />
+  <Status Word="lapo" State="R" />
+  <Status Word="anzi" State="R" />
+  <Status Word="huru" State="R" />
+  <Status Word="tatalita" State="R" />
+  <Status Word="dengengo" State="W" />
+  <Status Word="awamungo" State="R" />
+  <Status Word="ahitofel" State="R">
+    <SpecificCase>Ahitofel</SpecificCase>
+  </Status>
+  <Status Word="tango" State="R" />
+  <Status Word="pasa" State="R" />
+  <Status Word="wamungo" State="R" />
+  <Status Word="aaa" State="R">
+    <SpecificCase>Aaa</SpecificCase>
+  </Status>
+  <Status Word="yeda" State="R" />
+  <Status Word="be-taa" State="R" />
+  <Status Word="ahan" State="R" />
+  <Status Word="ngbene" State="R" />
+  <Status Word="awango" State="R" />
+  <Status Word="atengbi" State="R" />
+  <Status Word="hushai" State="R" />
+  <Status Word="giriri" State="R" />
+  <Status Word="sadok" State="R">
+    <SpecificCase>Sadok</SpecificCase>
+  </Status>
+  <Status Word="wabembengo" State="R" />
+  <Status Word="apeko" State="R" />
+  <Status Word="mbarata" State="R" />
+  <Status Word="kpoo" State="R" />
+  <Status Word="ahithofel" State="R" />
+  <Status Word="aninga" State="R" />
+  <Status Word="nyön" State="W">
+    <Correction>nyon</Correction>
+  </Status>
+  <Status Word="kpengo" State="R" />
+  <Status Word="kono" State="R" />
+  <Status Word="baba" State="R" />
+  <Status Word="amama" State="R" />
+  <Status Word="urse" State="R" />
+  <Status Word="saki" State="R" />
+  <Status Word="aforoto" State="R" />
+  <Status Word="gbotongo" State="R" />
+  <Status Word="mê" State="R" />
+  <Status Word="agbogbo" State="R" />
+  <Status Word="efraim" State="R">
+    <SpecificCase>Efraim</SpecificCase>
+  </Status>
+  <Status Word="ayongoro" State="R" />
+  <Status Word="amaboko" State="R" />
+  <Status Word="kai" State="R" />
+  <Status Word="avi" State="R" />
+  <Status Word="ndo-kua" State="R" />
+  <Status Word="maseka-koli" State="R" />
+  <Status Word="awandara" State="R" />
+  <Status Word="nilaa" State="R" />
+  <Status Word="atënë" State="R" />
+  <Status Word="agbengo" State="R">
+    <SpecificCase>Agbengo</SpecificCase>
+  </Status>
+  <Status Word="lingo" State="R" />
+  <Status Word="ambeti" State="R" />
+  <Status Word="kangbingo" State="R" />
+  <Status Word="ayaya" State="R" />
+  <Status Word="adonia" State="R">
+    <SpecificCase>Adonia</SpecificCase>
+  </Status>
+  <Status Word="benaya" State="R" />
+  <Status Word="fandara" State="R" />
+  <Status Word="taa-tënë" State="R" />
+  <Status Word="gihon" State="R" />
+  <Status Word="sepelango" State="R" />
+  <Status Word="vunga" State="R" />
+  <Status Word="awakango" State="R" />
+  <Status Word="didi" State="R" />
+  <Status Word="gbalaka" State="R" />
+  <Status Word="ndambo" State="R" />
+  <Status Word="mobimba" State="R" />
+  <Status Word="yango" State="R" />
+  <Status Word="ayingi" State="R" />
+  <Status Word="mbinda" State="R" />
+  <Status Word="lumiere" State="R" />
+  <Status Word="aza" State="R" />
+  <Status Word="pere" State="R" />
+  <Status Word="ayekia" State="R" />
+  <Status Word="asaa" State="R" />
+  <Status Word="ambela" State="R" />
+  <Status Word="mbele" State="R" />
+  <Status Word="angobo" State="R" />
+  <Status Word="asandaga" State="R" />
+  <Status Word="amosoro" State="R" />
+  <Status Word="hingango" State="R" />
+  <Status Word="bango-li" State="R" />
+  <Status Word="aba" State="R" />
+  <Status Word="abaa" State="R" />
+  <Status Word="abdias" State="R">
+    <SpecificCase>Abdias</SpecificCase>
+  </Status>
+  <Status Word="abed-nego" State="R">
+    <SpecificCase>Abed-Nego</SpecificCase>
+  </Status>
+  <Status Word="abenjamin" State="W" />
+  <Status Word="abiriki" State="R" />
+  <Status Word="abram" State="R">
+    <SpecificCase>Abram</SpecificCase>
+  </Status>
+  <Status Word="abraham" State="R">
+    <SpecificCase>Abraham</SpecificCase>
+  </Status>
+  <Status Word="abozo" State="R" />
+  <Status Word="acts" State="R" />
+  <Status Word="adabe" State="R" />
+  <Status Word="ada" State="R" />
+  <Status Word="adam-ee" State="R">
+    <SpecificCase>Adam-ee</SpecificCase>
+  </Status>
+  <Status Word="adanzapa" State="W">
+    <Correction>ada-nzapa</Correction>
+  </Status>
+  <Status Word="ada-nzapa" State="R" />
+  <Status Word="Ddanzapa" State="W">
+    <Correction>Da-Nzapa</Correction>
+  </Status>
+  <Status Word="da-nzapa" State="R" />
+  <Status Word="ddanzapa" State="W" />
+  <Status Word="pakara" State="R" />
+  <Status Word="-pakara" State="W" />
+  <Status Word="plase" State="R" />
+  <Status Word="apereni" State="W">
+    <Correction>Apere ni</Correction>
+  </Status>
+  <Status Word="apere ni" State="R">
+    <SpecificCase>Apere ni</SpecificCase>
+  </Status>
+  <Status Word="apagando" State="W">
+    <Correction>apagano</Correction>
+  </Status>
+  <Status Word="apagano" State="R" />
+  <Status Word="apafroditeague" State="W">
+    <Correction>Epafrodite ague</Correction>
+  </Status>
+  <Status Word="epafrodite ague" State="R">
+    <SpecificCase>Epafrodite ague</SpecificCase>
+  </Status>
+  <Status Word="arabi" State="W">
+    <Correction>Arabii</Correction>
+  </Status>
+  <Status Word="arabii" State="R">
+    <SpecificCase>Arabii</SpecificCase>
+  </Status>
+  <Status Word="aram" State="R">
+    <SpecificCase>Aram</SpecificCase>
+  </Status>
+  <Status Word="arame" State="W">
+    <Correction>Aram</Correction>
+  </Status>
+  <Status Word="arimate" State="R">
+    <SpecificCase>Arimate</SpecificCase>
+  </Status>
+  <Status Word="arara" State="R">
+    <SpecificCase>Arara</SpecificCase>
+  </Status>
+  <Status Word="a" State="R" />
+  <Status Word="a-ange" State="R" />
+  <Status Word="abagara" State="R" />
+  <Status Word="ababâ" State="R" />
+  <Status Word="abata" State="R" />
+  <Status Word="abatize" State="R" />
+  <Status Word="abatizee" State="W">
+    <Correction>Abatize</Correction>
+  </Status>
+  <Status Word="abib" State="R">
+    <SpecificCase>Abib</SpecificCase>
+  </Status>
+  <Status Word="abale" State="R" />
+  <Status Word="abinadab" State="R">
+    <SpecificCase>Abinadab</SpecificCase>
+  </Status>
+  <Status Word="abio" State="R" />
+  <Status Word="abmai" State="W">
+    <Correction>Ambai</Correction>
+  </Status>
+  <Status Word="abishai-ee" State="R">
+    <SpecificCase>Abishai-ee</SpecificCase>
+  </Status>
+  <Status Word="abo" State="R" />
+  <Status Word="abongbi" State="R" />
+  <Status Word="abuku" State="R" />
+  <Status Word="abungbi" State="W">
+    <Correction>abongbi</Correction>
+  </Status>
+  <Status Word="abutuma" State="R" />
+  <Status Word="ade" State="R" />
+  <Status Word="adeba" State="R" />
+  <Status Word="adeku" State="R">
+    <SpecificCase>Adeku</SpecificCase>
+  </Status>
+  <Status Word="adema" State="R" />
+  <Status Word="adengo" State="R" />
+  <Status Word="adi" State="R" />
+  <Status Word="adiakre" State="R" />
+  <Status Word="adidi" State="R" />
+  <Status Word="adingi" State="R" />
+  <Status Word="adisiple" State="R" />
+  <Status Word="adisipleti" State="W">
+    <Correction>adisiple ti</Correction>
+  </Status>
+  <Status Word="adisiple ti" State="R" />
+  <Status Word="adisple" State="W">
+    <Correction>adisiple</Correction>
+  </Status>
+  <Status Word="ado" State="R" />
+  <Status Word="adö" State="W">
+    <Correction>ado</Correction>
+  </Status>
+  <Status Word="adodo" State="R" />
+  <Status Word="adodoro" State="R" />
+  <Status Word="adü" State="W">
+    <Correction>adu</Correction>
+  </Status>
+  <Status Word="adugbia" State="W">
+    <Correction>a du gbia</Correction>
+  </Status>
+  <Status Word="a du gbia" State="R" />
+  <Status Word="aduti" State="R" />
+  <Status Word="aegilize" State="W">
+    <Correction>a-eglize</Correction>
+  </Status>
+  <Status Word="a-eglize" State="R" />
+  <Status Word="afa" State="R" />
+  <Status Word="afâ" State="R" />
+  <Status Word="afango" State="R" />
+  <Status Word="afarizien" State="R" />
+  <Status Word="afarizienna" State="W">
+    <Correction>afarizien na</Correction>
+  </Status>
+  <Status Word="afarizien na" State="R" />
+  <Status Word="afenetere" State="R" />
+  <Status Word="afini" State="R" />
+  <Status Word="afrika" State="R">
+    <SpecificCase>Afrika</SpecificCase>
+  </Status>
+  <Status Word="afun" State="R" />
+  <Status Word="afu" State="R" />
+  <Status Word="afuti" State="R" />
+  <Status Word="afutii" State="W">
+    <Correction>afuti</Correction>
+  </Status>
+  <Status Word="aga" State="R" />
+  <Status Word="agabus" State="R">
+    <SpecificCase>Agabus</SpecificCase>
+  </Status>
+  <Status Word="agaduru" State="R" />
+  <Status Word="agar" State="R">
+    <SpecificCase>Agar</SpecificCase>
+  </Status>
+  <Status Word="agatoo" State="R" />
+  <Status Word="agba" State="R" />
+  <Status Word="agbadola" State="R" />
+  <Status Word="agbaga" State="W">
+    <Correction>agbagba</Correction>
+  </Status>
+  <Status Word="agbagba" State="R" />
+  <Status Word="agbakuru" State="R" />
+  <Status Word="agbanda" State="R" />
+  <Status Word="agbata" State="R" />
+  <Status Word="agbe" State="R" />
+  <Status Word="agbefa" State="R" />
+  <Status Word="agbelegbia" State="R" />
+  <Status Word="agbele-gbia" State="R" />
+  <Status Word="agbenyo" State="W" />
+  <Status Word="agbenyogbia" State="W">
+    <Correction>agbenyon-gbia</Correction>
+  </Status>
+  <Status Word="agbenyon-gbia" State="R" />
+  <Status Word="agbe-nyogbia" State="W">
+    <Correction>agbenyon-gbia</Correction>
+  </Status>
+  <Status Word="agbi" State="R" />
+  <Status Word="agbia" State="R" />
+  <Status Word="agboto-mê" State="W">
+    <Correction>A gboto mê</Correction>
+  </Status>
+  <Status Word="a gboto mê" State="R">
+    <SpecificCase>A gboto mê</SpecificCase>
+  </Status>
+  <Status Word="agbotongo" State="R" />
+  <Status Word="agbu" State="R" />
+  <Status Word="agbungo" State="R" />
+  <Status Word="agee" State="W" />
+  <Status Word="agene" State="R" />
+  <Status Word="agere" State="R" />
+  <Status Word="Agee" State="W">
+    <Correction>Aggee</Correction>
+  </Status>
+  <Status Word="aggee" State="R">
+    <SpecificCase>Aggee</SpecificCase>
+  </Status>
+  <Status Word="agilize" State="W" />
+  <Status Word="agingo" State="R" />
+  <Status Word="agirisa" State="R" />
+  <Status Word="agogoro" State="R" />
+  <Status Word="agripa" State="R">
+    <SpecificCase>Agripa</SpecificCase>
+  </Status>
+  <Status Word="ague" State="R" />
+  <Status Word="nveni" State="W">
+    <Correction>wani</Correction>
+  </Status>
+  <Status Word="wani" State="R" />
+  <Status Word="nzaaapa" State="R">
+    <SpecificCase>Nzaaapa</SpecificCase>
+  </Status>
+  <Status Word="nzapaatene" State="W">
+    <Correction>Nzapa atene</Correction>
+  </Status>
+  <Status Word="nzapa atene" State="R">
+    <SpecificCase>Nzapa atene</SpecificCase>
+  </Status>
+  <Status Word="nzapaatokua" State="W">
+    <Correction>nzapa atokua</Correction>
+  </Status>
+  <Status Word="nzapa atokua" State="R" />
+  <Status Word="nzapa" State="R">
+    <SpecificCase>Nzapa</SpecificCase>
+  </Status>
+  <Status Word="nzapa-ee" State="R">
+    <SpecificCase>Nzapa-ee</SpecificCase>
+  </Status>
+  <Status Word="nzara" State="R" />
+  <Status Word="nyon" State="R" />
+  <Status Word="nyongo" State="R" />
+  <Status Word="nzaa" State="W">
+    <Correction>Nzapa</Correction>
+  </Status>
+  <Status Word="ninive" State="R">
+    <SpecificCase>Ninive</SpecificCase>
+  </Status>
+  <Status Word="ni-oo" State="R" />
+  <Status Word="nisan" State="R">
+    <SpecificCase>Nisan</SpecificCase>
+  </Status>
+  <Status Word="nyen-oo" State="R" />
+  <Status Word="nyen" State="R" />
+  <Status Word="nyama" State="R" />
+  <Status Word="nune" State="R">
+    <SpecificCase>Nune</SpecificCase>
+  </Status>
+  <Status Word="noemi" State="R">
+    <SpecificCase>Noemi</SpecificCase>
+  </Status>
+  <Status Word="noe" State="R">
+    <SpecificCase>Noe</SpecificCase>
+  </Status>
+  <Status Word="nod" State="R">
+    <SpecificCase>Nod</SpecificCase>
+  </Status>
+  <Status Word="nze" State="R" />
+  <Status Word="azingo" State="R" />
+  <Status Word="yere" State="R" />
+  <Status Word="ngobo" State="R" />
+  <Status Word="zungo" State="R" />
+  <Status Word="zuku" State="R" />
+  <Status Word="zua" State="R" />
+  <Status Word="zoti" State="W" />
+  <Status Word="ziba" State="R" />
+  <Status Word="zeus" State="R">
+    <SpecificCase>Zeus</SpecificCase>
+  </Status>
+  <Status Word="zege" State="W">
+    <Correction>zeke</Correction>
+  </Status>
+  <Status Word="zeke" State="R" />
+  <Status Word="zedekias" State="R">
+    <SpecificCase>Zedekias</SpecificCase>
+  </Status>
+  <Status Word="ze" State="R" />
+  <Status Word="zaragina" State="R" />
+  <Status Word="zakarie" State="W">
+    <Correction>Zakarii</Correction>
+  </Status>
+  <Status Word="zakarii" State="R">
+    <SpecificCase>Zakarii</SpecificCase>
+  </Status>
+  <Status Word="yingingo" State="R" />
+  <Status Word="yati" State="W" />
+  <Status Word="yapungo" State="R">
+    <SpecificCase>Yapungo</SpecificCase>
+  </Status>
+  <Status Word="yapu" State="R" />
+  <Status Word="yangati" State="W" />
+  <Status Word="wasungo-limo" State="R">
+    <SpecificCase>Wasungo-limo</SpecificCase>
+  </Status>
+  <Status Word="wasungo" State="W" />
+  <Status Word="wasârango-ta" State="W">
+    <Correction>Wasarango-ta</Correction>
+  </Status>
+  <Status Word="wasarango-ta" State="R">
+    <SpecificCase>Wasarango-ta</SpecificCase>
+  </Status>
+  <Status Word="wapikango-mozoko" State="R" />
+  <Status Word="wamandango" State="W" />
+  <Status Word="wamabe" State="R" />
+  <Status Word="wungo-tere" State="W">
+    <Correction>wungo tere</Correction>
+  </Status>
+  <Status Word="wungo tere" State="R" />
+  <Status Word="wokongo" State="R" />
+  <Status Word="with" State="W" />
+  <Status Word="who" State="W" />
+  <Status Word="when" State="W" />
+  <Status Word="wept" State="W" />
+  <Status Word="wedding" State="W" />
+  <Status Word="wazingo-zo" State="R" />
+  <Status Word="wayango--sandaga" State="W">
+    <Correction>wayango-sandaga</Correction>
+  </Status>
+  <Status Word="wayanga-" State="W">
+    <Correction>Wayanga-Nzapa</Correction>
+  </Status>
+  <Status Word="wayanga-nzapa" State="R" />
+  <Status Word="wayango-sandaga" State="R" />
+  <Status Word="wavorongo-yanda" State="R" />
+  <Status Word="walking" State="W" />
+  <Status Word="wali-mbo" State="R" />
+  <Status Word="walengo-gbia" State="R" />
+  <Status Word="wakua" State="R" />
+  <Status Word="wakion" State="R" />
+  <Status Word="waiting" State="W" />
+  <Status Word="wahanda" State="R">
+    <SpecificCase>Wahanda</SpecificCase>
+  </Status>
+  <Status Word="wagingo-susu" State="R" />
+  <Status Word="wafutingo-ye" State="R">
+    <SpecificCase>Wafutingo-ye</SpecificCase>
+  </Status>
+  <Status Word="wafângo" State="W" />
+  <Status Word="wafango-zo" State="R" />
+  <Status Word="wabingo-kamene" State="R" />
+  <Status Word="wabembengo-ndo" State="R" />
+  <Status Word="wabatango--taba" State="R" />
+  <Status Word="wabatango-mosoro" State="R" />
+  <Status Word="wabango-ndo" State="R" />
+  <Status Word="vision" State="W" />
+  <Status Word="vingo" State="R" />
+  <Status Word="veranda" State="R" />
+  <Status Word="ups" State="W" />
+  <Status Word="tyrant" State="W" />
+  <Status Word="tyr" State="W">
+    <Correction>Tir</Correction>
+  </Status>
+  <Status Word="tir" State="R">
+    <SpecificCase>Tir</SpecificCase>
+  </Status>
+  <Status Word="twice" State="W" />
+  <Status Word="tuu" State="R" />
+  <Status Word="turuguti" State="W">
+    <Correction>turugu ti</Correction>
+  </Status>
+  <Status Word="turugu ti" State="R" />
+  <Status Word="tukuyombo" State="W" />
+  <Status Word="tukungo" State="R" />
+  <Status Word="troubles" State="W" />
+  <Status Word="trouble" State="W" />
+  <Status Word="trial" State="W" />
+  <Status Word="tree" State="W" />
+  <Status Word="tough" State="W" />
+  <Status Word="tongues" State="W" />
+  <Status Word="tongasosi" State="W">
+    <Correction>tongaso si</Correction>
+  </Status>
+  <Status Word="tongaso si" State="R" />
+  <Status Word="tomba" State="W">
+    <Correction>tumba</Correction>
+  </Status>
+  <Status Word="tumba" State="R" />
+  <Status Word="tomb" State="W" />
+  <Status Word="tokuango" State="R" />
+  <Status Word="titus" State="W" />
+  <Status Word="tishike" State="R">
+    <SpecificCase>Tishike</SpecificCase>
+  </Status>
+  <Status Word="tisese" State="W">
+    <Correction>ti sese</Correction>
+  </Status>
+  <Status Word="ti sese" State="R" />
+  <Status Word="tirinzoni" State="W">
+    <Correction>Tiri nzoni</Correction>
+  </Status>
+  <Status Word="tiri nzoni" State="R">
+    <SpecificCase>Tiri nzoni</SpecificCase>
+  </Status>
+  <Status Word="tinzapa" State="W">
+    <Correction>ti Nzapa</Correction>
+  </Status>
+  <Status Word="ti nzapa" State="R">
+    <SpecificCase>ti Nzapa</SpecificCase>
+  </Status>
+  <Status Word="timothy" State="W" />
+  <Status Word="timna" State="R">
+    <SpecificCase>Timna</SpecificCase>
+  </Status>
+  <Status Word="amato" State="R" />
+  <Status Word="atia" State="R" />
+  <Status Word="bongbingo" State="R" />
+  <Status Word="dungo" State="R" />
+  <Status Word="lungo" State="R" />
+  <Status Word="kaingo" State="R" />
+  <Status Word="kungbingo" State="R" />
+  <Status Word="dodo" State="R" />
+  <Status Word="demango" State="R" />
+  <Status Word="ngbangba" State="R" />
+  <Status Word="sungo" State="R" />
+  <Status Word="surungo" State="R" />
+  <Status Word="fungo" State="R" />
+  <Status Word="tenengo" State="R" />
+  <Status Word="yengo" State="R" />
+  <Status Word="akinda" State="R" />
+  <Status Word="hiram" State="R" />
+  <Status Word="sedre" State="R" />
+  <Status Word="sipre" State="R" />
+  <Status Word="ble" State="R" />
+  <Status Word="liban" State="R" />
+  <Status Word="avuko" State="R" />
+  <Status Word="akangbi" State="R" />
+  <Status Word="metere" State="R" />
+  <Status Word="andu" State="R" />
+  <Status Word="akuku" State="R" />
+  <Status Word="amangboko" State="R" />
+  <Status Word="andeke" State="R" />
+  <Status Word="pembe" State="R" />
+  <Status Word="doli" State="R" />
+  <Status Word="bengba" State="R" />
+  <Status Word="lôro" State="R" />
+  <Status Word="awayere" State="R" />
+  <Status Word="buze" State="R" />
+  <Status Word="azambala" State="R" />
+  <Status Word="singo" State="R" />
+  <Status Word="banga" State="R" />
+  <Status Word="mbongo" State="R" />
+  <Status Word="asosongo" State="R">
+    <SpecificCase>Asosongo</SpecificCase>
+  </Status>
+  <Status Word="azua" State="R" />
+  <Status Word="sua" State="R" />
+  <Status Word="apendere" State="R" />
+  <Status Word="zambala" State="R" />
+  <Status Word="atanda" State="R" />
+  <Status Word="bango" State="R" />
+  <Status Word="akua" State="R" />
+  <Status Word="wali-gbia" State="R" />
+  <Status Word="saba" State="R">
+    <SpecificCase>Saba</SpecificCase>
+  </Status>
+  <Status Word="amatabisi" State="R" />
+  <Status Word="ayombo" State="R" />
+  <Status Word="kporo" State="R" />
+  <Status Word="ahia" State="R">
+    <SpecificCase>Ahia</SpecificCase>
+  </Status>
+  <Status Word="suru" State="R" />
+  <Status Word="baleoko" State="R" />
+  <Status Word="yeroboam" State="R">
+    <SpecificCase>Yeroboam</SpecificCase>
+  </Status>
+  <Status Word="akoto" State="R" />
+  <Status Word="aforoto-ee" State="R" />
+  <Status Word="-" State="R" />
+  <Status Word="vi" State="R" />
+  <Status Word="fuku" State="R" />
+  <Status Word="sishem" State="R" />
+  <Status Word="koko" State="R" />
+  <Status Word="akungba" State="R" />
+  <Status Word="ayapu" State="R" />
+  <Status Word="akangba" State="R" />
+  <Status Word="maseka" State="R" />
+  <Status Word="kungba" State="R" />
+  <Status Word="akparakongo" State="R" />
+  <Status Word="kotara" State="R" />
+  <Status Word="roboam" State="R">
+    <SpecificCase>Roboam</SpecificCase>
+  </Status>
+  <Status Word="anengo" State="R" />
+  <Status Word="afo" State="R" />
+  <Status Word="shishak" State="R">
+    <SpecificCase>Shishak</SpecificCase>
+  </Status>
+  <Status Word="tongo" State="R" />
+  <Status Word="akungbi" State="R" />
+  <Status Word="ahole" State="R" />
+  <Status Word="betel" State="R">
+    <SpecificCase>Betel</SpecificCase>
+  </Status>
+  <Status Word="waziba" State="R" />
+  <Status Word="vorongo" State="R" />
+  <Status Word="yezabel" State="R" />
+  <Status Word="molenge-wali" State="R" />
+  <Status Word="avoro" State="R" />
+  <Status Word="akpakpo" State="R" />
+  <Status Word="lakui" State="R" />
+  <Status Word="obadia" State="R" />
+  <Status Word="kugbe" State="R" />
+  <Status Word="anze" State="R" />
+  <Status Word="holengo" State="R" />
+  <Status Word="amanda" State="R" />
+  <Status Word="nginza" State="R" />
+  <Status Word="vo" State="R" />
+  <Status Word="farini" State="R" />
+  <Status Word="ngbenda" State="R" />
+  <Status Word="akete" State="R" />
+  <Status Word="agreke" State="R" />
+  <Status Word="ahale" State="R" />
+  <Status Word="ahanda" State="R" />
+  <Status Word="ahara" State="R" />
+  <Status Word="ahazia" State="R">
+    <SpecificCase>Ahazia</SpecificCase>
+  </Status>
+  <Status Word="ahebro" State="R" />
+  <Status Word="ahebreo" State="W" />
+  <Status Word="ahinga" State="R" />
+  <Status Word="aholengo" State="R" />
+  <Status Word="ahon" State="R" />
+  <Status Word="ahondo" State="W" />
+  <Status Word="ahon ndö" State="R" />
+  <Status Word="ahondoni" State="W">
+    <Correction>ahon ndoni</Correction>
+  </Status>
+  <Status Word="ahon ndoni" State="R" />
+  <Status Word="ahunda" State="R" />
+  <Status Word="ahundango" State="R" />
+  <Status Word="ahunzi" State="R" />
+  <Status Word="ahuru" State="R" />
+  <Status Word="ai" State="R">
+    <SpecificCase>Ai</SpecificCase>
+  </Status>
+  <Status Word="aiii" State="R">
+    <SpecificCase>Aiii</SpecificCase>
+  </Status>
+  <Status Word="aikiri" State="W">
+    <Correction>akiri</Correction>
+  </Status>
+  <Status Word="akiri" State="R" />
+  <Status Word="airi" State="R" />
+  <Status Word="a-iri" State="R" />
+  <Status Word="Airi" State="W">
+    <Correction>a-iri</Correction>
+  </Status>
+  <Status Word="a-ita" State="R" />
+  <Status Word="ajiufe" State="W">
+    <Correction>azuife</Correction>
+  </Status>
+  <Status Word="azuife" State="R" />
+  <Status Word="a-urse" State="R" />
+  <Status Word="aurse" State="W">
+    <Correction>a-urse</Correction>
+  </Status>
+  <Status Word="avaka" State="R" />
+  <Status Word="avinye" State="R" />
+  <Status Word="avo" State="R" />
+  <Status Word="avuku" State="W">
+    <Correction>avuko</Correction>
+  </Status>
+  <Status Word="avuma" State="R" />
+  <Status Word="avunga" State="R" />
+  <Status Word="avuru" State="R" />
+  <Status Word="awâ" State="R" />
+  <Status Word="aziufe" State="W" />
+  <Status Word="azokue" State="W" />
+  <Status Word="azo kue" State="R" />
+  <Status Word="azo-ee" State="R">
+    <SpecificCase>Azo-ee</SpecificCase>
+  </Status>
+  <Status Word="azo" State="R" />
+  <Status Word="azoti" State="W">
+    <Correction>azo ti</Correction>
+  </Status>
+  <Status Word="azo ti" State="R" />
+  <Status Word="azo-eeeee" State="R">
+    <SpecificCase>Azo-eeeee</SpecificCase>
+  </Status>
+  <Status Word="azowa" State="W">
+    <Correction>Azo wa</Correction>
+  </Status>
+  <Status Word="azo wa" State="R">
+    <SpecificCase>Azo wa</SpecificCase>
+  </Status>
+  <Status Word="azu" State="R" />
+  <Status Word="azuku" State="R" />
+  <Status Word="azingiri" State="R" />
+  <Status Word="azii" State="R">
+    <SpecificCase>Azii</SpecificCase>
+  </Status>
+  <Status Word="azia" State="R" />
+  <Status Word="azi" State="R" />
+  <Status Word="azendo" State="R" />
+  <Status Word="azende" State="R" />
+  <Status Word="aturuguti" State="W" />
+  <Status Word="aturugu" State="R" />
+  <Status Word="aue" State="W">
+    <Correction>awe</Correction>
+  </Status>
+  <Status Word="awe" State="R" />
+  <Status Word="aungo" State="W">
+    <Correction>Awungo</Correction>
+  </Status>
+  <Status Word="awungo" State="R">
+    <SpecificCase>Awungo</SpecificCase>
+  </Status>
+  <Status Word="awabango" State="R" />
+  <Status Word="awabatango-gaduru" State="R" />
+  <Status Word="awabatango-gbata" State="R" />
+  <Status Word="awabatango-taba" State="R" />
+  <Status Word="awabatango-zambala" State="R" />
+  <Status Word="awabembengo" State="R">
+    <SpecificCase>Awabembengo</SpecificCase>
+  </Status>
+  <Status Word="awadengo-buze" State="R" />
+  <Status Word="awafango-ndia" State="R" />
+  <Status Word="awafango-ngbanga" State="R" />
+  <Status Word="awafango-yaka" State="R" />
+  <Status Word="awafango-ye" State="R" />
+  <Status Word="awa-handango" State="W">
+    <Correction>awahandango</Correction>
+  </Status>
+  <Status Word="awahandango" State="R" />
+  <Status Word="awafango-mbeti" State="R" />
+  <Status Word="wasongo-azo" State="R" />
+  <Status Word="zuife" State="R" />
+  <Status Word="zuge" State="R" />
+  <Status Word="zu" State="R" />
+  <Status Word="zowâ" State="W">
+    <Correction>Zo wa</Correction>
+  </Status>
+  <Status Word="zo wa" State="R">
+    <SpecificCase>Zo wa</SpecificCase>
+  </Status>
+  <Status Word="wazingo" State="R" />
+  <Status Word="wazingo-azo" State="R" />
+  <Status Word="wasuwusu" State="W" />
+  <Status Word="wusuwusu" State="R" />
+  <Status Word="water" State="W" />
+  <Status Word="wasongo" State="R" />
+  <Status Word="wasongo-zo" State="R" />
+  <Status Word="wara" State="R" />
+  <Status Word="warango" State="R" />
+  <Status Word="warongo" State="R" />
+  <Status Word="wasarango-kua" State="R" />
+  <Status Word="wasarango-limo" State="R">
+    <SpecificCase>Wasarango-limo</SpecificCase>
+  </Status>
+  <Status Word="wango" State="R" />
+  <Status Word="wangangu" State="R" />
+  <Status Word="wanganga" State="R" />
+  <Status Word="wandia" State="R">
+    <SpecificCase>Wandia</SpecificCase>
+  </Status>
+  <Status Word="wandara" State="R" />
+  <Status Word="wamungo-wango" State="R" />
+  <Status Word="sidon" State="R">
+    <SpecificCase>Sidon</SpecificCase>
+  </Status>
+  <Status Word="kite" State="R" />
+  <Status Word="anzapa" State="R" />
+  <Status Word="awamungo-wango" State="R" />
+  <Status Word="papa" State="R" />
+  <Status Word="andia" State="R" />
+  <Status Word="o" State="R" />
+  <Status Word="karmel" State="R" />
+  <Status Word="mandako" State="R" />
+  <Status Word="bekombite" State="R" />
+  <Status Word="sukulango" State="R" />
+  <Status Word="ngorongo" State="R" />
+  <Status Word="ngbonga" State="R" />
+  <Status Word="vuko" State="R" />
+  <Status Word="asambela" State="R" />
+  <Status Word="mediterane" State="R">
+    <SpecificCase>Mediterane</SpecificCase>
+  </Status>
+  <Status Word="bekpa" State="R" />
+  <Status Word="potopoto" State="R" />
+  <Status Word="amvene" State="R" />
+  <Status Word="awayanga-nzapa" State="R" />
+  <Status Word="guengo" State="R" />
+  <Status Word="ayenga" State="R" />
+  <Status Word="ate" State="R" />
+  <Status Word="nzee" State="R" />
+  <Status Word="sinai" State="R">
+    <SpecificCase>Sinai</SpecificCase>
+  </Status>
+  <Status Word="asungba" State="R" />
+  <Status Word="go" State="R" />
+  <Status Word="awayanga" State="R" />
+  <Status Word="anzapa-ee" State="R">
+    <SpecificCase>Anzapa-ee</SpecificCase>
+  </Status>
+  <Status Word="hazael" State="R">
+    <SpecificCase>Hazael</SpecificCase>
+  </Status>
+  <Status Word="wayanga" State="R" />
+  <Status Word="ayaka" State="R" />
+  <Status Word="tia" State="R" />
+  <Status Word="gbiki" State="R" />
+  <Status Word="su" State="R" />
+  <Status Word="gbi" State="R" />
+  <Status Word="iringo" State="R" />
+  <Status Word="vinye" State="R" />
+  <Status Word="nabot" State="R" />
+  <Status Word="bo" State="R" />
+  <Status Word="akpa" State="R" />
+  <Status Word="akpanda" State="R" />
+  <Status Word="yungo" State="R" />
+  <Status Word="yosafat" State="R" />
+  <Status Word="nika" State="R" />
+  <Status Word="ah" State="R" />
+  <Status Word="angbonga" State="R" />
+  <Status Word="lu" State="R" />
+  <Status Word="apusu" State="R" />
+  <Status Word="yoram" State="R">
+    <SpecificCase>Yoram</SpecificCase>
+  </Status>
+  <Status Word="fani" State="R" />
+  <Status Word="lo-wani" State="R" />
+  <Status Word="amaseka" State="R" />
+  <Status Word="samarii" State="R" />
+  <Status Word="ata" State="R" />
+  <Status Word="buruma" State="R" />
+  <Status Word="naaman" State="R" />
+  <Status Word="girisango" State="R" />
+  <Status Word="damas" State="R" />
+  <Status Word="alinda" State="R" />
+  <Status Word="sirii" State="R">
+    <SpecificCase>Sirii</SpecificCase>
+  </Status>
+  <Status Word="kilometere" State="R" />
+  <Status Word="omene" State="R" />
+  <Status Word="ngoro" State="R" />
+  <Status Word="oke" State="R" />
+  <Status Word="puru" State="R" />
+  <Status Word="dongo" State="R" />
+  <Status Word="betazo" State="R" />
+  <Status Word="avala" State="R" />
+  <Status Word="asanziri" State="R" />
+  <Status Word="het" State="R">
+    <SpecificCase>Het</SpecificCase>
+  </Status>
+  <Status Word="futi" State="R" />
+  <Status Word="yizreel" State="R" />
+  <Status Word="molongo" State="R" />
+  <Status Word="hale" State="R" />
+  <Status Word="yehu" State="R">
+    <SpecificCase>Yehu</SpecificCase>
+  </Status>
+  <Status Word="tatara" State="R" />
+  <Status Word="kpaka" State="R" />
+  <Status Word="futango" State="R" />
+  <Status Word="gbeni" State="R" />
+  <Status Word="gbia-ee" State="R">
+    <SpecificCase>Gbia-ee</SpecificCase>
+  </Status>
+  <Status Word="yoas" State="R" />
+  <Status Word="yosheba" State="R" />
+  <Status Word="amolenge-koli" State="R" />
+  <Status Word="foroto" State="R" />
+  <Status Word="linda" State="R" />
+  <Status Word="gbia-wali" State="R" />
+  <Status Word="seen" State="R" />
+  <Status Word="alikongo" State="R" />
+  <Status Word="apikango" State="R" />
+  <Status Word="tarango" State="R" />
+  <Status Word="akadoo" State="R" />
+  <Status Word="susu" State="R" />
+  <Status Word="jonas" State="R" />
+  <Status Word="tarsis" State="R">
+    <SpecificCase>Tarsis</SpecificCase>
+  </Status>
+  <Status Word="ako" State="R" />
+  <Status Word="amene" State="R" />
+  <Status Word="zonga" State="R" />
+  <Status Word="nzere" State="R" />
+  <Status Word="zende" State="R" />
+  <Status Word="asuku" State="R" />
+  <Status Word="osee" State="R">
+    <SpecificCase>Osee</SpecificCase>
+  </Status>
+  <Status Word="gomer" State="R">
+    <SpecificCase>Gomer</SpecificCase>
+  </Status>
+  <Status Word="amos" State="R">
+    <SpecificCase>Amos</SpecificCase>
+  </Status>
+  <Status Word="wabatango-taba" State="R" />
+  <Status Word="kungbi" State="R" />
+  <Status Word="joel" State="R">
+    <SpecificCase>Joel</SpecificCase>
+  </Status>
+  <Status Word="gbadola" State="R" />
+  <Status Word="ambakoro" State="R" />
+  <Status Word="mishe" State="R">
+    <SpecificCase>Mishe</SpecificCase>
+  </Status>
+  <Status Word="ala-ee" State="R" />
+  <Status Word="betlehem" State="R">
+    <SpecificCase>Betlehem</SpecificCase>
+  </Status>
+  <Status Word="esaïe" State="R" />
+  <Status Word="aserafen" State="R" />
+  <Status Word="kpangi" State="R" />
+  <Status Word="serafen" State="R" />
+  <Status Word="ezekias" State="R" />
+  <Status Word="akotara" State="R" />
+  <Status Word="asirii" State="R" />
+  <Status Word="senakerib" State="R">
+    <SpecificCase>Senakerib</SpecificCase>
+  </Status>
+  <Status Word="asua" State="R" />
+  <Status Word="suango" State="R" />
+  <Status Word="eskalie" State="R" />
+  <Status Word="babilone" State="R" />
+  <Status Word="alembe" State="R" />
+  <Status Word="kadoo" State="R" />
+  <Status Word="nahum" State="R" />
+  <Status Word="patara" State="R" />
+  <Status Word="hebro" State="R">
+    <SpecificCase>Hebro</SpecificCase>
+  </Status>
+  <Status Word="furu" State="R" />
+  <Status Word="inon" State="R" />
+  <Status Word="lengo" State="R" />
+  <Status Word="dengo" State="R" />
+  <Status Word="ngbangbo" State="R" />
+  <Status Word="yosias" State="R" />
+  <Status Word="miombe" State="R" />
+  <Status Word="hilkia" State="R" />
+  <Status Word="sofonii" State="R">
+    <SpecificCase>Sofonii</SpecificCase>
+  </Status>
+  <Status Word="hulda" State="R">
+    <SpecificCase>Hulda</SpecificCase>
+  </Status>
+  <Status Word="pake" State="R" />
+  <Status Word="ayangbo" State="R">
+    <SpecificCase>Ayangbo</SpecificCase>
+  </Status>
+  <Status Word="atambula" State="R" />
+  <Status Word="megido" State="R" />
+  <Status Word="yoakim" State="R" />
+  <Status Word="nabukodonosor" State="R">
+    <SpecificCase>Nabukodonosor</SpecificCase>
+  </Status>
+  <Status Word="ganza" State="R" />
+  <Status Word="awande" State="R" />
+  <Status Word="mango" State="R" />
+  <Status Word="asiokpari" State="R" />
+  <Status Word="wafango" State="R" />
+  <Status Word="baruk" State="R" />
+  <Status Word="sukungo" State="R" />
+  <Status Word="zö" State="R" />
+  <Status Word="dukani" State="R" />
+  <Status Word="gbenyogbia" State="R" />
+  <Status Word="pashehur" State="R" />
+  <Status Word="awusuwusu" State="R" />
+  <Status Word="dikongo" State="R" />
+  <Status Word="pono" State="R" />
+  <Status Word="bio" State="R" />
+  <Status Word="dingi" State="R" />
+  <Status Word="ezekiel" State="R" />
+  <Status Word="yoakin" State="R" />
+  <Status Word="awamungu" State="R" />
+  <Status Word="kebar" State="R" />
+  <Status Word="kpangbi" State="R" />
+  <Status Word="zango" State="R" />
+  <Status Word="ndobe" State="R" />
+  <Status Word="faa" State="R" />
+  <Status Word="sanziri" State="R" />
+  <Status Word="futingo" State="R" />
+  <Status Word="dungu" State="W">
+    <Correction>du-ngu</Correction>
+  </Status>
+  <Status Word="mburu" State="R" />
+  <Status Word="haka" State="R" />
+  <Status Word="angbene" State="R" />
+  <Status Word="toli" State="R" />
+  <Status Word="akuru" State="R" />
+  <Status Word="yingi" State="R" />
+  <Status Word="kasa" State="R" />
+  <Status Word="sisa" State="R" />
+  <Status Word="popo-hoto" State="R" />
+  <Status Word="limo" State="R" />
+  <Status Word="aya" State="R" />
+  <Status Word="anika" State="R" />
+  <Status Word="akugbe" State="R" />
+  <Status Word="gogoro" State="R" />
+  <Status Word="lembe" State="R" />
+  <Status Word="ndangba" State="R" />
+  <Status Word="apotopoto" State="R" />
+  <Status Word="ebed-melek" State="R">
+    <SpecificCase>Ebed-Melek</SpecificCase>
+  </Status>
+  <Status Word="bale" State="R" />
+  <Status Word="koro" State="R" />
+  <Status Word="jerusalem-ee" State="R">
+    <SpecificCase>Jerusalem-ee</SpecificCase>
+  </Status>
+  <Status Word="maseka-wali" State="R" />
+  <Status Word="alege" State="R" />
+  <Status Word="edom" State="R" />
+  <Status Word="babâ-kota" State="R" />
+  <Status Word="mispa" State="R">
+    <SpecificCase>Mispa</SpecificCase>
+  </Status>
+  <Status Word="gedalia" State="R" />
+  <Status Word="kodro-sese" State="R" />
+  <Status Word="shadrak" State="R">
+    <SpecificCase>Shadrak</SpecificCase>
+  </Status>
+  <Status Word="meshak" State="R">
+    <SpecificCase>Meshak</SpecificCase>
+  </Status>
+  <Status Word="amolongo" State="R" />
+  <Status Word="awakanga" State="R" />
+  <Status Word="ndade" State="R" />
+  <Status Word="meza" State="R" />
+  <Status Word="mandango" State="R" />
+  <Status Word="marduk" State="R" />
+  <Status Word="yekiango" State="R" />
+  <Status Word="asenge" State="R" />
+  <Status Word="konongo" State="R" />
+  <Status Word="anyon" State="R" />
+  <Status Word="vuru" State="R" />
+  <Status Word="akode" State="R" />
+  <Status Word="be-nzee" State="R" />
+  <Status Word="asuma" State="R" />
+  <Status Word="ngurugbia" State="R" />
+  <Status Word="yoro" State="R" />
+  <Status Word="akozo" State="R" />
+  <Status Word="suma" State="R" />
+  <Status Word="akasa" State="R" />
+  <Status Word="awahandango-zo" State="R" />
+  <Status Word="gbungo-li" State="R" />
+  <Status Word="dura" State="R">
+    <SpecificCase>Dura</SpecificCase>
+  </Status>
+  <Status Word="awapikango" State="R">
+    <SpecificCase>Awapikango</SpecificCase>
+  </Status>
+  <Status Word="amenga" State="R" />
+  <Status Word="ngoalo" State="R" />
+  <Status Word="akpangi" State="R" />
+  <Status Word="apembe" State="R" />
+  <Status Word="awen" State="R" />
+  <Status Word="akodro-gbia" State="R" />
+  <Status Word="beltasar" State="R" />
+  <Status Word="amatanga" State="R" />
+  <Status Word="akopo" State="R" />
+  <Status Word="asembe" State="R" />
+  <Status Word="sembe" State="R" />
+  <Status Word="zongango" State="R" />
+  <Status Word="toro" State="R" />
+  <Status Word="atoli" State="R" />
+  <Status Word="biando" State="R" />
+  <Status Word="darius" State="R" />
+  <Status Word="petengo" State="R" />
+  <Status Word="goro" State="R" />
+  <Status Word="baleota" State="R" />
+  <Status Word="medii" State="R" />
+  <Status Word="aperse" State="R" />
+  <Status Word="nganganga" State="R" />
+  <Status Word="anzene" State="R">
+    <SpecificCase>Anzene</SpecificCase>
+  </Status>
+  <Status Word="sambelango" State="R" />
+  <Status Word="nzoroko" State="R" />
+  <Status Word="amiro" State="R" />
+  <Status Word="inde" State="R">
+    <SpecificCase>Inde</SpecificCase>
+  </Status>
+  <Status Word="etiopii" State="R" />
+  <Status Word="zerses" State="R" />
+  <Status Word="suze" State="R" />
+  <Status Word="vasti" State="R" />
+  <Status Word="komandema" State="R" />
+  <Status Word="mardochee" State="R" />
+  <Status Word="amaseka-wali" State="R" />
+  <Status Word="awamandako" State="R" />
+  <Status Word="wakango" State="R" />
+  <Status Word="yombo" State="R" />
+  <Status Word="mire" State="R" />
+  <Status Word="butoon" State="R" />
+  <Status Word="poroso" State="R">
+    <SpecificCase>Poroso</SpecificCase>
+  </Status>
+  <Status Word="bigtan" State="R" />
+  <Status Word="wafango-ndia" State="R" />
+  <Status Word="dango" State="R" />
+  <Status Word="kanaan" State="R">
+    <SpecificCase>Kanaan</SpecificCase>
+  </Status>
+  <Status Word="haman" State="R" />
+  <Status Word="anzere" State="R" />
+  <Status Word="purim" State="R" />
+  <Status Word="aha" State="R" />
+  <Status Word="ba" State="R" />
+  <Status Word="handa" State="R" />
+  <Status Word="bage" State="R" />
+  <Status Word="gunda" State="R" />
+  <Status Word="akongo" State="R" />
+  <Status Word="gbelegbia" State="R" />
+  <Status Word="nzerengo" State="R" />
+  <Status Word="awarango" State="R" />
+  <Status Word="haman-wani" State="R" />
+  <Status Word="gbia-wani" State="R" />
+  <Status Word="esdras" State="R" />
+  <Status Word="esaie" State="R">
+    <SpecificCase>Esaie</SpecificCase>
+  </Status>
+  <Status Word="sirus" State="R" />
+  <Status Word="ur" State="R">
+    <SpecificCase>Ur</SpecificCase>
+  </Status>
+  <Status Word="palestine" State="R" />
+  <Status Word="ala-wani" State="R" />
+  <Status Word="ambo" State="R" />
+  <Status Word="zorobabel" State="R" />
+  <Status Word="kongo" State="R" />
+  <Status Word="akilometere" State="R" />
+  <Status Word="nehemie" State="R" />
+  <Status Word="martoo" State="R" />
+  <Status Word="malashii" State="R">
+    <SpecificCase>Malashii</SpecificCase>
+  </Status>
+  <Status Word="kungo" State="R" />
+  <Status Word="busefal" State="R">
+    <SpecificCase>Busefal</SpecificCase>
+  </Status>
+  <Status Word="christ" State="R" />
+  <Status Word="greke" State="R" />
+  <Status Word="matatias" State="R">
+    <SpecificCase>Matatias</SpecificCase>
+  </Status>
+  <Status Word="gba-gburrr" State="R" />
+  <Status Word="gbingo" State="R" />
+  <Status Word="londongo" State="R" />
+  <Status Word="govoronere" State="R" />
+  <Status Word="bada" State="R" />
+  <Status Word="sana" State="R" />
+  <Status Word="mbumbuse" State="R" />
+  <Status Word="ne-ne" State="R" />
+  <Status Word="lawa-oo" State="R">
+    <SpecificCase>Lawa-oo</SpecificCase>
+  </Status>
+  <Status Word="elizabeth" State="R" />
+  <Status Word="gabriel" State="R" />
+  <Status Word="sarapande" State="R" />
+  <Status Word="ngo" State="R" />
+  <Status Word="di" State="R" />
+  <Status Word="nazaret" State="R" />
+  <Status Word="yingo-vuru" State="R">
+    <SpecificCase>Yingo-Vuru</SpecificCase>
+  </Status>
+  <Status Word="auguste" State="R">
+    <SpecificCase>Auguste</SpecificCase>
+  </Status>
+  <Status Word="taba" State="R" />
+  <Status Word="gondango" State="R" />
+  <Status Word="tongoro" State="R" />
+  <Status Word="rama" State="R">
+    <SpecificCase>Rama</SpecificCase>
+  </Status>
+  <Status Word="rachel" State="R">
+    <SpecificCase>Rachel</SpecificCase>
+  </Status>
+  <Status Word="batize" State="R" />
+  <Status Word="elisabeth" State="R">
+    <SpecificCase>Elisabeth</SpecificCase>
+  </Status>
+  <Status Word="bateme" State="R" />
+  <Status Word="tengo" State="R" />
+  <Status Word="wotoro" State="R" />
+  <Status Word="angadi" State="R" />
+  <Status Word="awotoro" State="R" />
+  <Status Word="baptiste" State="R" />
+  <Status Word="mbipa" State="R" />
+  <Status Word="baleosio" State="R" />
+  <Status Word="satan" State="R">
+    <SpecificCase>Satan</SpecificCase>
+  </Status>
+  <Status Word="zabolo" State="R" />
+  <Status Word="betanii" State="R">
+    <SpecificCase>Betanii</SpecificCase>
+  </Status>
+  <Status Word="andre" State="R" />
+  <Status Word="simon" State="R" />
+  <Status Word="galile" State="R">
+    <SpecificCase>Galile</SpecificCase>
+  </Status>
+  <Status Word="philippe" State="R" />
+  <Status Word="disiple" State="R" />
+  <Status Word="natanael" State="R" />
+  <Status Word="kana" State="R" />
+  <Status Word="vin" State="R" />
+  <Status Word="awakua" State="R" />
+  <Status Word="akpene" State="R" />
+  <Status Word="mesii" State="R" />
+  <Status Word="nikodeme" State="R">
+    <SpecificCase>Nikodeme</SpecificCase>
+  </Status>
+  <Status Word="judee" State="R" />
+  <Status Word="kapernaum" State="R" />
+  <Status Word="kelekpa" State="R" />
+  <Status Word="rongo" State="R" />
+  <Status Word="awasiokpari" State="R" />
+  <Status Word="kpengba" State="R" />
+  <Status Word="ngere" State="R" />
+  <Status Word="barthelemy" State="R" />
+  <Status Word="thomas" State="R" />
+  <Status Word="alfe" State="R" />
+  <Status Word="judas" State="R" />
+  <Status Word="iskariote" State="R" />
+  <Status Word="lamba" State="R" />
+  <Status Word="atapande" State="R" />
+  <Status Word="ingo" State="R" />
+  <Status Word="ko" State="R" />
+  <Status Word="mbutu" State="R" />
+  <Status Word="kapita" State="R" />
+  <Status Word="lenge" State="R" />
+  <Status Word="kindango" State="R" />
+  <Status Word="le-songo" State="R" />
+  <Status Word="hole" State="R" />
+  <Status Word="apere" State="R" />
+  <Status Word="ki" State="R" />
+  <Status Word="mapo" State="R" />
+  <Status Word="ngö" State="R" />
+  <Status Word="ayingo" State="R" />
+  <Status Word="zingiri" State="R" />
+  <Status Word="anguru" State="R" />
+  <Status Word="yairus" State="R" />
+  <Status Word="angbo" State="R" />
+  <Status Word="ambipa" State="R" />
+  <Status Word="salome" State="R" />
+  <Status Word="anene" State="R" />
+  <Status Word="kpangbara" State="R" />
+  <Status Word="asusu" State="R" />
+  <Status Word="oku" State="R" />
+  <Status Word="ro" State="R" />
+  <Status Word="anduru" State="R" />
+  <Status Word="aro" State="R" />
+  <Status Word="sakpa" State="R" />
+  <Status Word="hmmm" State="W">
+    <Correction>hmm</Correction>
+  </Status>
+  <Status Word="filipe" State="R" />
+  <Status Word="sezare" State="R" />
+  <Status Word="asukula" State="R" />
+  <Status Word="za" State="R" />
+  <Status Word="wafango-ye" State="R" />
+  <Status Word="kara" State="R" />
+  <Status Word="mandango-aye" State="R" />
+  <Status Word="abingbi" State="R" />
+  <Status Word="handango" State="R" />
+  <Status Word="kpango" State="R" />
+  <Status Word="azaragina" State="R" />
+  <Status Word="kaleb" State="R">
+    <SpecificCase>Kaleb</SpecificCase>
+  </Status>
+  <Status Word="marthe" State="R">
+    <SpecificCase>Marthe</SpecificCase>
+  </Status>
+  <Status Word="lazare" State="R" />
+  <Status Word="amen" State="R" />
+  <Status Word="ngambe" State="R" />
+  <Status Word="barman" State="R" />
+  <Status Word="tembe" State="R" />
+  <Status Word="peree" State="R" />
+  <Status Word="zingongo" State="R" />
+  <Status Word="akuâ" State="R" />
+  <Status Word="komande" State="R" />
+  <Status Word="zachee" State="R" />
+  <Status Word="jericho" State="R">
+    <SpecificCase>Jericho</SpecificCase>
+  </Status>
+  <Status Word="hongo" State="R" />
+  <Status Word="sikomor" State="R" />
+  <Status Word="bubango" State="R" />
+  <Status Word="layenga" State="R" />
+  <Status Word="gbara" State="R" />
+  <Status Word="suku" State="R" />
+  <Status Word="bikua" State="R" />
+  <Status Word="wali-mua" State="R" />
+  <Status Word="kondo" State="R" />
+  <Status Word="bere" State="R" />
+  <Status Word="getsemane" State="R" />
+  <Status Word="kango" State="R" />
+  <Status Word="nzene" State="R" />
+  <Status Word="pilate" State="R" />
+  <Status Word="antipas" State="R">
+    <SpecificCase>Antipas</SpecificCase>
+  </Status>
+  <Status Word="kroa" State="R" />
+  <Status Word="akamba" State="R" />
+  <Status Word="ndo-ti-abio-ti-li" State="R">
+    <SpecificCase>Ndo-ti-abio-ti-li</SpecificCase>
+  </Status>
+  <Status Word="akobela" State="R" />
+  <Status Word="sirene" State="R" />
+  <Status Word="dee" State="R" />
+  <Status Word="fu" State="R" />
+  <Status Word="ridoo" State="R" />
+  <Status Word="magdala" State="R" />
+  <Status Word="emaus" State="R" />
+  <Status Word="ayanga-da" State="R" />
+  <Status Word="pondi" State="R" />
+  <Status Word="sorongo" State="R" />
+  <Status Word="awamungo-peko" State="R" />
+  <Status Word="angoalo" State="R" />
+  <Status Word="Jonathan" State="W">
+    <Correction>Jonatan</Correction>
+  </Status>
+  <Status Word="bembe" State="R" />
+  <Status Word="akua-li" State="R" />
+  <Status Word="sako" State="R" />
+  <Status Word="hurungo" State="R" />
+  <Status Word="kambisa" State="R" />
+  <Status Word="safira" State="R" />
+  <Status Word="anginza" State="R" />
+  <Status Word="bozo" State="R" />
+  <Status Word="barnabas" State="R" />
+  <Status Word="bengo" State="R" />
+  <Status Word="gamaliel" State="R" />
+  <Status Word="biri" State="R" />
+  <Status Word="etienne" State="R" />
+  <Status Word="mbongo-to" State="R">
+    <SpecificCase>Mbongo-To</SpecificCase>
+  </Status>
+  <Status Word="diakre" State="R" />
+  <Status Word="gaza" State="R">
+    <SpecificCase>Gaza</SpecificCase>
+  </Status>
+  <Status Word="kârâte" State="W">
+    <Correction>Karate</Correction>
+  </Status>
+  <Status Word="zope" State="R" />
+  <Status Word="lida" State="R">
+    <SpecificCase>Lida</SpecificCase>
+  </Status>
+  <Status Word="gba-ti-ingo" State="R">
+    <SpecificCase>Gba-ti-ingo</SpecificCase>
+  </Status>
+  <Status Word="ene" State="R" />
+  <Status Word="tabita" State="R" />
+  <Status Word="corneille" State="R" />
+  <Status Word="aporo" State="R" />
+  <Status Word="pantekote" State="R">
+    <SpecificCase>Pantekote</SpecificCase>
+  </Status>
+  <Status Word="ngende" State="R" />
+  <Status Word="pusungo" State="R" />
+  <Status Word="rode" State="R" />
+  <Status Word="angusu" State="R" />
+  <Status Word="zoa" State="R" />
+  <Status Word="pergame" State="R" />
+  <Status Word="pisidii" State="R" />
+  <Status Word="ikoniom" State="R">
+    <SpecificCase>Ikoniom</SpecificCase>
+  </Status>
+  <Status Word="galasii" State="R" />
+  <Status Word="derbe" State="R" />
+  <Status Word="apatara" State="R" />
+  <Status Word="neapolis" State="R" />
+  <Status Word="athenes" State="R" />
+  <Status Word="ndao" State="R" />
+  <Status Word="ndima" State="R" />
+  <Status Word="kolose" State="R" />
+  <Status Word="barango" State="R">
+    <SpecificCase>Barango</SpecificCase>
+  </Status>
+  <Status Word="onezime" State="R" />
+  <Status Word="italii" State="R">
+    <SpecificCase>Italii</SpecificCase>
+  </Status>
+  <Status Word="kpu" State="R" />
+  <Status Word="shipre" State="R">
+    <SpecificCase>Shipre</SpecificCase>
+  </Status>
+  <Status Word="silas" State="R">
+    <SpecificCase>Silas</SpecificCase>
+  </Status>
+  <Status Word="listre" State="R">
+    <SpecificCase>Listre</SpecificCase>
+  </Status>
+  <Status Word="timothee" State="R">
+    <SpecificCase>Timothee</SpecificCase>
+  </Status>
+  <Status Word="ambumbuse" State="R" />
+  <Status Word="efeze" State="R">
+    <SpecificCase>Efeze</SpecificCase>
+  </Status>
+  <Status Word="troas" State="R" />
+  <Status Word="masedoane" State="R">
+    <SpecificCase>Masedoane</SpecificCase>
+  </Status>
+  <Status Word="gbe-ndia" State="R" />
+  <Status Word="tesalonike" State="R">
+    <SpecificCase>Tesalonike</SpecificCase>
+  </Status>
+  <Status Word="samotras" State="R">
+    <SpecificCase>Samotras</SpecificCase>
+  </Status>
+  <Status Word="lydie" State="R">
+    <SpecificCase>Lydie</SpecificCase>
+  </Status>
+  <Status Word="wafango-ngbanga" State="R" />
+  <Status Word="gara" State="R" />
+  <Status Word="yason" State="R">
+    <SpecificCase>Yason</SpecificCase>
+  </Status>
+  <Status Word="korente" State="R">
+    <SpecificCase>Korente</SpecificCase>
+  </Status>
+  <Status Word="walekengo" State="R" />
+  <Status Word="akilas" State="R">
+    <SpecificCase>Akilas</SpecificCase>
+  </Status>
+  <Status Word="priscille" State="R">
+    <SpecificCase>Priscille</SpecificCase>
+  </Status>
+  <Status Word="fango-tënë" State="R" />
+  <Status Word="vongo" State="R" />
+  <Status Word="atongoro" State="R" />
+  <Status Word="akai" State="R" />
+  <Status Word="habakuk" State="R">
+    <SpecificCase>Habakuk</SpecificCase>
+  </Status>
+  <Status Word="afâa" State="R" />
+  <Status Word="agbagbara" State="R" />
+  <Status Word="agba-kodro" State="R" />
+  <Status Word="agu" State="R" />
+  <Status Word="ahaz" State="R">
+    <SpecificCase>Ahaz</SpecificCase>
+  </Status>
+  <Status Word="ahikam" State="R">
+    <SpecificCase>Ahikam</SpecificCase>
+  </Status>
+  <Status Word="aie" State="R">
+    <SpecificCase>Aie</SpecificCase>
+  </Status>
+  <Status Word="akab" State="R">
+    <SpecificCase>Akab</SpecificCase>
+  </Status>
+  <Status Word="akabinee" State="R" />
+  <Status Word="akan" State="R">
+    <SpecificCase>Akan</SpecificCase>
+  </Status>
+  <Status Word="akanga" State="R" />
+  <Status Word="akaoya" State="R" />
+  <Status Word="akapa" State="R" />
+  <Status Word="ake" State="R" />
+  <Status Word="akerere" State="R">
+    <SpecificCase>Akerere</SpecificCase>
+  </Status>
+  <Status Word="akobe" State="R" />
+  <Status Word="akodro-sese" State="R" />
+  <Status Word="akoli" State="R" />
+  <Status Word="akoli-bagara" State="R" />
+  <Status Word="akomanda" State="R" />
+  <Status Word="akongba" State="R" />
+  <Status Word="akono-ee" State="R" />
+  <Status Word="akonongo" State="R" />
+  <Status Word="akota" State="R" />
+  <Status Word="kora" State="R">
+    <SpecificCase>Kora</SpecificCase>
+  </Status>
+  <Status Word="akora" State="R">
+    <SpecificCase>aKora</SpecificCase>
+  </Status>
+  <Status Word="akpaka" State="R" />
+  <Status Word="akpe" State="R" />
+  <Status Word="akpingba" State="W">
+    <Correction>akpengba</Correction>
+  </Status>
+  <Status Word="akui" State="R" />
+  <Status Word="ala" State="R" />
+  <Status Word="alango" State="R" />
+  <Status Word="alapo" State="R" />
+  <Status Word="ale" State="R" />
+  <Status Word="aleke" State="R" />
+  <Status Word="ale-kobe" State="R" />
+  <Status Word="alexandre" State="R">
+    <SpecificCase>Alexandre</SpecificCase>
+  </Status>
+  <Status Word="ali" State="R" />
+  <Status Word="alimo" State="R" />
+  <Status Word="alinbig" State="W">
+    <Correction>alingbi</Correction>
+  </Status>
+  <Status Word="alingbi" State="R" />
+  <Status Word="alingibi" State="W">
+    <Correction>alingbi</Correction>
+  </Status>
+  <Status Word="alondo" State="R" />
+  <Status Word="aluti" State="R" />
+  <Status Word="ama" State="R" />
+  <Status Word="amaka" State="R" />
+  <Status Word="amalek" State="R">
+    <SpecificCase>Amalek</SpecificCase>
+  </Status>
+  <Status Word="amanke" State="R" />
+  <Status Word="amapa" State="R" />
+  <Status Word="amara" State="R" />
+  <Status Word="amaseka-koli" State="R" />
+  <Status Word="amayere" State="R" />
+  <Status Word="ambeni" State="R" />
+  <Status Word="ambeti-limo" State="R" />
+  <Status Word="ambinda" State="R" />
+  <Status Word="amolenge" State="R" />
+  <Status Word="amolenge-wali" State="R" />
+  <Status Word="amon" State="R">
+    <SpecificCase>Amon</SpecificCase>
+  </Status>
+  <Status Word="amori" State="R">
+    <SpecificCase>Amori</SpecificCase>
+  </Status>
+  <Status Word="amram" State="R">
+    <SpecificCase>Amram</SpecificCase>
+  </Status>
+  <Status Word="amu" State="R" />
+  <Status Word="ande" State="R" />
+  <Status Word="ando" State="R" />
+  <Status Word="angasa" State="R" />
+  <Status Word="angba" State="R" />
+  <Status Word="angbaa" State="R" />
+  <Status Word="angbenda" State="R" />
+  <Status Word="angbongboro" State="R" />
+  <Status Word="ange" State="R" />
+  <Status Word="angengo" State="R" />
+  <Status Word="angbere" State="W">
+    <Correction>angbene</Correction>
+  </Status>
+  <Status Word="angu" State="R" />
+  <Status Word="angu-ingo" State="R" />
+  <Status Word="angungu" State="R" />
+  <Status Word="angu-nzapa" State="R">
+    <SpecificCase>Angu-Nzapa</SpecificCase>
+  </Status>
+  <Status Word="ani" State="R" />
+  <Status Word="anne" State="R">
+    <SpecificCase>Anne</SpecificCase>
+  </Status>
+  <Status Word="anyama" State="R" />
+  <Status Word="anyama-ee" State="R" />
+  <Status Word="antioshe" State="R">
+    <SpecificCase>Antioshe</SpecificCase>
+  </Status>
+  <Status Word="anzene-ngbonga" State="R">
+    <SpecificCase>Anzene-ngbonga</SpecificCase>
+  </Status>
+  <Status Word="a-olive" State="R" />
+  <Status Word="a-onyon" State="R" />
+  <Status Word="apapa" State="R" />
+  <Status Word="ape" State="R" />
+  <Status Word="apete" State="R">
+    <SpecificCase>Apete</SpecificCase>
+  </Status>
+  <Status Word="apika" State="R" />
+  <Status Word="apolos" State="R">
+    <SpecificCase>Apolos</SpecificCase>
+  </Status>
+  <Status Word="apopo-hoto" State="R" />
+  <Status Word="aporoso" State="R" />
+  <Status Word="apuru" State="R" />
+  <Status Word="ara" State="W">
+    <Correction>tara</Correction>
+  </Status>
+  <Status Word="tara" State="R" />
+  <Status Word="areopaze" State="R">
+    <SpecificCase>Areopaze</SpecificCase>
+  </Status>
+  <Status Word="aristarke" State="R">
+    <SpecificCase>Aristarke</SpecificCase>
+  </Status>
+  <Status Word="artakzerses" State="R">
+    <SpecificCase>Artakzerses</SpecificCase>
+  </Status>
+  <Status Word="aruu" State="R" />
+  <Status Word="asakpa" State="R" />
+  <Status Word="asara" State="R" />
+  <Status Word="asdod" State="R">
+    <SpecificCase>Asdod</SpecificCase>
+  </Status>
+  <Status Word="asedre" State="R">
+    <SpecificCase>Asedre</SpecificCase>
+  </Status>
+  <Status Word="asee" State="R" />
+  <Status Word="aser" State="R">
+    <SpecificCase>Aser</SpecificCase>
+  </Status>
+  <Status Word="asese" State="R" />
+  <Status Word="asewa" State="R" />
+  <Status Word="asheruben" State="R" />
+  <Status Word="asi" State="R" />
+  <Status Word="asigi" State="W">
+    <Correction>asigigi</Correction>
+  </Status>
+  <Status Word="asigigi" State="R" />
+  <Status Word="asioni" State="R" />
+  <Status Word="asongo" State="R" />
+  <Status Word="asoro" State="R" />
+  <Status Word="ataa" State="R" />
+  <Status Word="ataba" State="R" />
+  <Status Word="atalii" State="R">
+    <SpecificCase>Atalii</SpecificCase>
+  </Status>
+  <Status Word="atatalita" State="R">
+    <SpecificCase>Atatalita</SpecificCase>
+  </Status>
+  <Status Word="atene" State="R" />
+  <Status Word="ati" State="R" />
+  <Status Word="ato" State="R" />
+  <Status Word="atokua" State="R" />
+  <Status Word="atomboka" State="R" />
+  <Status Word="atonda" State="W" />
+  <Status Word="avukongo" State="R" />
+  <Status Word="awabango-le" State="R" />
+  <Status Word="awafango-zo" State="R" />
+  <Status Word="awahanda" State="R" />
+  <Status Word="awakango-kodro" State="R" />
+  <Status Word="awakengo-ndia" State="R">
+    <SpecificCase>Awakengo-ndia</SpecificCase>
+  </Status>
+  <Status Word="awali" State="R" />
+  <Status Word="awali-gbia" State="R">
+    <SpecificCase>Awali-gbia</SpecificCase>
+  </Status>
+  <Status Word="awali-yere" State="R" />
+  <Status Word="awamabe" State="R" />
+  <Status Word="awamungo-yanga" State="R" />
+  <Status Word="awapikango-mozoko" State="R">
+    <SpecificCase>Awapikango-mozoko</SpecificCase>
+  </Status>
+  <Status Word="awara" State="R" />
+  <Status Word="awato" State="R" />
+  <Status Word="awatokua" State="R" />
+  <Status Word="awatongoro" State="R" />
+  <Status Word="awayongo-sandaga" State="R" />
+  <Status Word="awe-ee" State="R">
+    <SpecificCase>Awe-ee</SpecificCase>
+  </Status>
+  <Status Word="ayanda" State="R" />
+  <Status Word="aye" State="R" />
+  <Status Word="ayeda" State="R" />
+  <Status Word="ayeke" State="R" />
+  <Status Word="ayengere" State="R" />
+  <Status Word="ayoo" State="R">
+    <SpecificCase>Ayoo</SpecificCase>
+  </Status>
+  <Status Word="baa" State="R" />
+  <Status Word="baal" State="R">
+    <SpecificCase>Baal</SpecificCase>
+  </Status>
+  <Status Word="babâ" State="R" />
+  <Status Word="baba-ee" State="R">
+    <SpecificCase>Baba-ee</SpecificCase>
+  </Status>
+  <Status Word="babâ-kete" State="R" />
+  <Status Word="fono" State="R" />
+  <Status Word="mbeti-sango" State="R" />
+  <Status Word="babel" State="R">
+    <SpecificCase>Babel</SpecificCase>
+  </Status>
+  <Status Word="babilu" State="R">
+    <SpecificCase>Babilu</SpecificCase>
+  </Status>
+  <Status Word="balaam" State="R">
+    <SpecificCase>Balaam</SpecificCase>
+  </Status>
+  <Status Word="balak" State="R">
+    <SpecificCase>Balak</SpecificCase>
+  </Status>
+  <Status Word="baleoku" State="R" />
+  <Status Word="balioko" State="R" />
+  <Status Word="banga-do" State="R">
+    <SpecificCase>Banga-Do</SpecificCase>
+  </Status>
+  <Status Word="bango-lini" State="R" />
+  <Status Word="barabas" State="R">
+    <SpecificCase>Barabas</SpecificCase>
+  </Status>
+  <Status Word="barak" State="R">
+    <SpecificCase>Barak</SpecificCase>
+  </Status>
+  <Status Word="barnabas-ee" State="R">
+    <SpecificCase>Barnabas-ee</SpecificCase>
+  </Status>
+  <Status Word="barsabas" State="R">
+    <SpecificCase>Barsabas</SpecificCase>
+  </Status>
+  <Status Word="bashan" State="R">
+    <SpecificCase>Bashan</SpecificCase>
+  </Status>
+  <Status Word="bata" State="R" />
+  <Status Word="be" State="R" />
+  <Status Word="beku" State="R" />
+  <Status Word="benda" State="R" />
+  <Status Word="bengo-le" State="R">
+    <SpecificCase>Bengo-le</SpecificCase>
+  </Status>
+  <Status Word="benjamin" State="R">
+    <SpecificCase>Benjamin</SpecificCase>
+  </Status>
+  <Status Word="benyama" State="R" />
+  <Status Word="beser" State="R">
+    <SpecificCase>Beser</SpecificCase>
+  </Status>
+  <Status Word="bi" State="R" />
+  <Status Word="biani" State="R" />
+  <Status Word="bibe" State="R" />
+  <Status Word="bikani" State="R" />
+  <Status Word="bildad" State="R">
+    <SpecificCase>Bildad</SpecificCase>
+  </Status>
+  <Status Word="bingbingo" State="R" />
+  <Status Word="bira" State="R" />
+  <Status Word="biriki" State="R" />
+  <Status Word="bongbi" State="R" />
+  <Status Word="bongo" State="R" />
+  <Status Word="booz" State="R">
+    <SpecificCase>Booz</SpecificCase>
+  </Status>
+  <Status Word="bresil" State="W">
+    <Correction>Brezil</Correction>
+  </Status>
+  <Status Word="brezil" State="R">
+    <SpecificCase>Brezil</SpecificCase>
+  </Status>
+  <Status Word="buba" State="R" />
+  <Status Word="buburu" State="R" />
+  <Status Word="buki" State="R" />
+  <Status Word="bungbi" State="W">
+    <Correction>bongbi</Correction>
+  </Status>
+  <Status Word="bureau" State="R">
+    <SpecificCase>Bureau</SpecificCase>
+  </Status>
+  <Status Word="buru" State="R" />
+  <Status Word="cariello" State="R">
+    <SpecificCase>Cariello</SpecificCase>
+  </Status>
+  <Status Word="carielo" State="W">
+    <Correction>Cariello</Correction>
+  </Status>
+  <Status Word="chypre" State="R">
+    <SpecificCase>Chypre</SpecificCase>
+  </Status>
+  <Status Word="daä" State="W">
+    <Correction>daa</Correction>
+  </Status>
+  <Status Word="daa" State="R" />
+  <Status Word="damba" State="R" />
+  <Status Word="dambeti" State="W">
+    <Correction>da-mbeti</Correction>
+  </Status>
+  <Status Word="da-mbeti" State="R" />
+  <Status Word="dan" State="R">
+    <SpecificCase>Dan</SpecificCase>
+  </Status>
+  <Status Word="da-nduzu" State="R" />
+  <Status Word="david-ee" State="R">
+    <SpecificCase>David-ee</SpecificCase>
+  </Status>
+  <Status Word="dawa" State="R" />
+  <Status Word="debora" State="R">
+    <SpecificCase>Debora</SpecificCase>
+  </Status>
+  <Status Word="dede" State="R" />
+  <Status Word="du" State="R" />
+  <Status Word="du-kuâ" State="R" />
+  <Status Word="du-ngu" State="R" />
+  <Status Word="dunia" State="R" />
+  <Status Word="duti" State="R" />
+  <Status Word="e" State="R" />
+  <Status Word="eben-ezer" State="R">
+    <SpecificCase>Eben-Ezer</SpecificCase>
+  </Status>
+  <Status Word="eden" State="R">
+    <SpecificCase>Eden</SpecificCase>
+  </Status>
+  <Status Word="edras" State="R" />
+  <Status Word="een" State="R">
+    <SpecificCase>Een</SpecificCase>
+  </Status>
+  <Status Word="êen" State="R" />
+  <Status Word="efese" State="W">
+    <Correction>Efeze</Correction>
+  </Status>
+  <Status Word="efrate" State="R">
+    <SpecificCase>Efrate</SpecificCase>
+  </Status>
+  <Status Word="egee" State="R">
+    <SpecificCase>Egee</SpecificCase>
+  </Status>
+  <Status Word="egilize" State="W">
+    <Correction>eglize</Correction>
+  </Status>
+  <Status Word="eglon" State="R">
+    <SpecificCase>Eglon</SpecificCase>
+  </Status>
+  <Status Word="ehud" State="R">
+    <SpecificCase>Ehud</SpecificCase>
+  </Status>
+  <Status Word="elazar" State="R">
+    <SpecificCase>Elazar</SpecificCase>
+  </Status>
+  <Status Word="eliab" State="R">
+    <SpecificCase>Eliab</SpecificCase>
+  </Status>
+  <Status Word="elie" State="R">
+    <SpecificCase>Elie</SpecificCase>
+  </Status>
+  <Status Word="eliezer" State="R">
+    <SpecificCase>Eliezer</SpecificCase>
+  </Status>
+  <Status Word="elifaz" State="R">
+    <SpecificCase>Elifaz</SpecificCase>
+  </Status>
+  <Status Word="elisee-ee" State="R">
+    <SpecificCase>Elisee-ee</SpecificCase>
+  </Status>
+  <Status Word="en" State="W" />
+  <Status Word="ên" State="W" />
+  <Status Word="ên-en" State="R" />
+  <Status Word="esther" State="R">
+    <SpecificCase>Esther</SpecificCase>
+  </Status>
+  <Status Word="etish" State="R">
+    <SpecificCase>Etish</SpecificCase>
+  </Status>
+  <Status Word="ezau" State="R">
+    <SpecificCase>Ezau</SpecificCase>
+  </Status>
+  <Status Word="ezipte" State="R">
+    <SpecificCase>Ezipte</SpecificCase>
+  </Status>
+  <Status Word="fa" State="R" />
+  <Status Word="fâ" State="R" />
+  <Status Word="fade" State="R" />
+  <Status Word="fade-a" State="R" />
+  <Status Word="fadeso" State="R" />
+  <Status Word="fango" State="R" />
+  <Status Word="faranga" State="R" />
+  <Status Word="faraon" State="R">
+    <SpecificCase>Faraon</SpecificCase>
+  </Status>
+  <Status Word="farine" State="W">
+    <Correction>farini</Correction>
+  </Status>
+  <Status Word="festus" State="R">
+    <SpecificCase>Festus</SpecificCase>
+  </Status>
+  <Status Word="filisiti" State="W">
+    <Correction>Filistii</Correction>
+  </Status>
+  <Status Word="filistii" State="R">
+    <SpecificCase>Filistii</SpecificCase>
+  </Status>
+  <Status Word="filisti" State="W">
+    <Correction>Filistii</Correction>
+  </Status>
+  <Status Word="fimbo" State="R" />
+  <Status Word="fini" State="R" />
+  <Status Word="floride" State="R">
+    <SpecificCase>Floride</SpecificCase>
+  </Status>
+  <Status Word="fun" State="R" />
+  <Status Word="futa" State="R" />
+  <Status Word="ga" State="R" />
+  <Status Word="gaius" State="R">
+    <SpecificCase>Gaius</SpecificCase>
+  </Status>
+  <Status Word="galaad" State="R">
+    <SpecificCase>Galaad</SpecificCase>
+  </Status>
+  <Status Word="galion" State="R">
+    <SpecificCase>Galion</SpecificCase>
+  </Status>
+  <Status Word="gapa" State="R" />
+  <Status Word="gati" State="R" />
+  <Status Word="gba" State="R" />
+  <Status Word="gbagba" State="R" />
+  <Status Word="gbagba-ee" State="R" />
+  <Status Word="gbanga" State="W">
+    <Correction>ngbanga</Correction>
+  </Status>
+  <Status Word="ngbanga" State="R" />
+  <Status Word="gbani" State="R" />
+  <Status Word="gbanzi" State="R" />
+  <Status Word="gbata" State="R" />
+  <Status Word="gbazabanga" State="R" />
+  <Status Word="gbe" State="R" />
+  <Status Word="gbe-de" State="R" />
+  <Status Word="gbiango" State="R" />
+  <Status Word="gbogbolinda-ee" State="R" />
+  <Status Word="gbu" State="R" />
+  <Status Word="gbungo" State="R" />
+  <Status Word="gburr" State="R" />
+  <Status Word="ge" State="R" />
+  <Status Word="gedeon" State="R">
+    <SpecificCase>Gedeon</SpecificCase>
+  </Status>
+  <Status Word="gele" State="W">
+    <Correction>gere</Correction>
+  </Status>
+  <Status Word="gere" State="R" />
+  <Status Word="gershom" State="R">
+    <SpecificCase>Gershom</SpecificCase>
+  </Status>
+  <Status Word="gi" State="R" />
+  <Status Word="gï" State="W">
+    <Correction>gi</Correction>
+  </Status>
+  <Status Word="gibea" State="R">
+    <SpecificCase>Gibea</SpecificCase>
+  </Status>
+  <Status Word="gigi" State="R" />
+  <Status Word="gilgal" State="R">
+    <SpecificCase>Gilgal</SpecificCase>
+  </Status>
+  <Status Word="goigoi" State="R" />
+  <Status Word="golan" State="R">
+    <SpecificCase>Golan</SpecificCase>
+  </Status>
+  <Status Word="golgota" State="R">
+    <SpecificCase>Golgota</SpecificCase>
+  </Status>
+  <Status Word="gonda" State="R" />
+  <Status Word="goshen" State="R">
+    <SpecificCase>Goshen</SpecificCase>
+  </Status>
+  <Status Word="govoroma" State="R" />
+  <Status Word="gue" State="R" />
+  <Status Word="gumbaya" State="R" />
+  <Status Word="halezo" State="R" />
+  <Status Word="ham" State="R">
+    <SpecificCase>Ham</SpecificCase>
+  </Status>
+  <Status Word="hanania" State="R">
+    <SpecificCase>Hanania</SpecificCase>
+  </Status>
+  <Status Word="haran" State="R">
+    <SpecificCase>Haran</SpecificCase>
+  </Status>
+  <Status Word="hebron-ee" State="R">
+    <SpecificCase>Hebron-ee</SpecificCase>
+  </Status>
+  <Status Word="hege" State="R">
+    <SpecificCase>Hege</SpecificCase>
+  </Status>
+  <Status Word="heli" State="R">
+    <SpecificCase>Heli</SpecificCase>
+  </Status>
+  <Status Word="henok" State="R">
+    <SpecificCase>Henok</SpecificCase>
+  </Status>
+  <Status Word="hermes" State="R">
+    <SpecificCase>Hermes</SpecificCase>
+  </Status>
+  <Status Word="heshebon" State="R">
+    <SpecificCase>Heshebon</SpecificCase>
+  </Status>
+  <Status Word="hinga" State="R" />
+  <Status Word="hio" State="R" />
+  <Status Word="hmm" State="R" />
+  <Status Word="hon" State="R" />
+  <Status Word="hor" State="R">
+    <SpecificCase>Hor</SpecificCase>
+  </Status>
+  <Status Word="hoto" State="R" />
+  <Status Word="hunda" State="R" />
+  <Status Word="hunzingo" State="R" />
+  <Status Word="hur" State="R">
+    <SpecificCase>Hur</SpecificCase>
+  </Status>
+  <Status Word="hurunga" State="W">
+    <Correction>hurungo</Correction>
+  </Status>
+  <Status Word="i" State="W" />
+  <Status Word="ia" State="W" />
+  <Status Word="iri" State="R" />
+  <Status Word="isaac" State="R">
+    <SpecificCase>Isaac</SpecificCase>
+  </Status>
+  <Status Word="isakar" State="R">
+    <SpecificCase>Isakar</SpecificCase>
+  </Status>
+  <Status Word="ismael" State="R">
+    <SpecificCase>Ismael</SpecificCase>
+  </Status>
+  <Status Word="ita" State="R" />
+  <Status Word="ita-wali" State="R">
+    <SpecificCase>Ita-wali</SpecificCase>
+  </Status>
+  <Status Word="job" State="R">
+    <SpecificCase>Job</SpecificCase>
+  </Status>
+  <Status Word="joël" State="W">
+    <Correction>Joel</Correction>
+  </Status>
+  <Status Word="josef" State="W">
+    <Correction>Joseph</Correction>
+  </Status>
+  <Status Word="joseph" State="R">
+    <SpecificCase>Joseph</SpecificCase>
+  </Status>
+  <Status Word="josias" State="R">
+    <SpecificCase>Josias</SpecificCase>
+  </Status>
+  <Status Word="josue" State="R">
+    <SpecificCase>Josue</SpecificCase>
+  </Status>
+  <Status Word="ka" State="R" />
+  <Status Word="kâ" State="R" />
+  <Status Word="kabinee-a" State="R" />
+  <Status Word="kades" State="R">
+    <SpecificCase>Kades</SpecificCase>
+  </Status>
+  <Status Word="kain" State="R">
+    <SpecificCase>Kain</SpecificCase>
+  </Status>
+  <Status Word="kai-oo" State="R">
+    <SpecificCase>Kai-oo</SpecificCase>
+  </Status>
+  <Status Word="kalde" State="R">
+    <SpecificCase>Kalde</SpecificCase>
+  </Status>
+  <Status Word="kamba" State="R" />
+  <Status Word="kandaa" State="R" />
+  <Status Word="kando" State="R" />
+  <Status Word="kanga" State="R" />
+  <Status Word="kaoya" State="R" />
+  <Status Word="karate" State="R">
+    <SpecificCase>Karate</SpecificCase>
+  </Status>
+  <Status Word="kâsa" State="W">
+    <Correction>kasa</Correction>
+  </Status>
+  <Status Word="ke" State="R" />
+  <Status Word="keke" State="R" />
+  <Status Word="kekereke" State="R" />
+  <Status Word="kerere" State="R" />
+  <Status Word="kete" State="R" />
+  <Status Word="ketekete" State="R" />
+  <Status Word="kion" State="R" />
+  <Status Word="kiri" State="R" />
+  <Status Word="kiringo" State="R" />
+  <Status Word="kish" State="R">
+    <SpecificCase>Kish</SpecificCase>
+  </Status>
+  <Status Word="kishon" State="R">
+    <SpecificCase>Kishon</SpecificCase>
+  </Status>
+  <Status Word="kobe" State="R" />
+  <Status Word="kobela" State="R" />
+  <Status Word="kobela-ee" State="R" />
+  <Status Word="kode" State="R" />
+  <Status Word="kodro" State="R" />
+  <Status Word="kodro-gbia" State="R" />
+  <Status Word="koli" State="R" />
+  <Status Word="koli-bagara" State="R" />
+  <Status Word="koli-kondo" State="R" />
+  <Status Word="koli-ngasa" State="R" />
+  <Status Word="koli-taba" State="R" />
+  <Status Word="komanda" State="R" />
+  <Status Word="kongö" State="R" />
+  <Status Word="kota" State="R" />
+  <Status Word="kota-ya" State="R" />
+  <Status Word="kotazo" State="W" />
+  <Status Word="koto" State="R" />
+  <Status Word="kozo" State="R" />
+  <Status Word="kozoni" State="R" />
+  <Status Word="kozoni-a" State="R" />
+  <Status Word="kpa" State="R" />
+  <Status Word="kpale" State="R" />
+  <Status Word="kpe" State="R" />
+  <Status Word="kpene" State="R" />
+  <Status Word="kpengba-li" State="R" />
+  <Status Word="ku" State="R" />
+  <Status Word="kua" State="R" />
+  <Status Word="kuâ" State="R" />
+  <Status Word="kua-li" State="R" />
+  <Status Word="kubert" State="R">
+    <SpecificCase>Kubert</SpecificCase>
+  </Status>
+  <Status Word="kue" State="R" />
+  <Status Word="kui" State="R" />
+  <Status Word="kui-a" State="R" />
+  <Status Word="kukungo" State="R" />
+  <Status Word="kundi" State="R" />
+  <Status Word="kush" State="R">
+    <SpecificCase>Kush</SpecificCase>
+  </Status>
+  <Status Word="kutukutu" State="R" />
+  <Status Word="kwe" State="W">
+    <Correction>kue</Correction>
+  </Status>
+  <Status Word="fingo" State="R" />
+  <Status Word="folondingi" State="R">
+    <SpecificCase>Folondingi</SpecificCase>
+  </Status>
+  <Status Word="a-ata" State="R">
+    <SpecificCase>A-ata</SpecificCase>
+  </Status>
+  <Status Word="absalom-ee" State="R">
+    <SpecificCase>Absalom-ee</SpecificCase>
+  </Status>
+  <Status Word="akpangba" State="R" />
+  <Status Word="apilie" State="R" />
+  <Status Word="lâ" State="R" />
+  <Status Word="laa" State="R" />
+  <Status Word="laban" State="R">
+    <SpecificCase>Laban</SpecificCase>
+  </Status>
+  <Status Word="lakue" State="R" />
+  <Status Word="lango" State="R" />
+  <Status Word="laoko" State="R" />
+  <Status Word="lapoo" State="W">
+    <Correction>lapo</Correction>
+  </Status>
+  <Status Word="laso" State="R" />
+  <Status Word="le" State="R" />
+  <Status Word="lea" State="R">
+    <SpecificCase>Lea</SpecificCase>
+  </Status>
+  <Status Word="le-gbia" State="R" />
+  <Status Word="lege" State="R" />
+  <Status Word="legeoko" State="R" />
+  <Status Word="leke" State="R" />
+  <Status Word="le-keke" State="R" />
+  <Status Word="le-kobe" State="R" />
+  <Status Word="levi" State="R">
+    <SpecificCase>Levi</SpecificCase>
+  </Status>
+  <Status Word="li" State="R" />
+  <Status Word="likisi" State="R" />
+  <Status Word="likünü" State="W">
+    <Correction>likunu</Correction>
+  </Status>
+  <Status Word="li-mbombo" State="R" />
+  <Status Word="limon" State="W">
+    <Correction>limo</Correction>
+  </Status>
+  <Status Word="lingbi" State="R" />
+  <Status Word="lisoro" State="R" />
+  <Status Word="lo" State="R" />
+  <Status Word="londo" State="R" />
+  <Status Word="lot" State="R">
+    <SpecificCase>Lot</SpecificCase>
+  </Status>
+  <Status Word="luti" State="R" />
+  <Status Word="ma" State="R" />
+  <Status Word="mabe" State="R" />
+  <Status Word="maboko" State="R" />
+  <Status Word="madian" State="R">
+    <SpecificCase>Madian</SpecificCase>
+  </Status>
+  <Status Word="mafuta" State="R" />
+  <Status Word="mahanaim" State="R">
+    <SpecificCase>Mahanaim</SpecificCase>
+  </Status>
+  <Status Word="makabe" State="R">
+    <SpecificCase>Makabe</SpecificCase>
+  </Status>
+  <Status Word="makpela" State="R">
+    <SpecificCase>Makpela</SpecificCase>
+  </Status>
+  <Status Word="malte" State="R">
+    <SpecificCase>Malte</SpecificCase>
+  </Status>
+  <Status Word="mama" State="R" />
+  <Status Word="mama-ee" State="R">
+    <SpecificCase>Mama-ee</SpecificCase>
+  </Status>
+  <Status Word="mama-gbia" State="R" />
+  <Status Word="manase" State="R">
+    <SpecificCase>Manase</SpecificCase>
+  </Status>
+  <Status Word="manda" State="R" />
+  <Status Word="mandango-ye" State="R" />
+  <Status Word="mane" State="R" />
+  <Status Word="mangboko" State="R" />
+  <Status Word="mango-tere" State="R" />
+  <Status Word="mara" State="R" />
+  <Status Word="marvel" State="R">
+    <SpecificCase>Marvel</SpecificCase>
+  </Status>
+  <Status Word="mason" State="R" />
+  <Status Word="matanga" State="R" />
+  <Status Word="matri" State="R">
+    <SpecificCase>Matri</SpecificCase>
+  </Status>
+  <Status Word="matthias" State="R">
+    <SpecificCase>Matthias</SpecificCase>
+  </Status>
+  <Status Word="mauss" State="R">
+    <SpecificCase>Mauss</SpecificCase>
+  </Status>
+  <Status Word="mawa" State="R" />
+  <Status Word="mazii" State="R" />
+  <Status Word="mbage" State="R" />
+  <Status Word="mbai" State="R" />
+  <Status Word="mbakoro" State="R" />
+  <Status Word="mbana-a" State="R">
+    <SpecificCase>Mbana-a</SpecificCase>
+  </Status>
+  <Status Word="mbanda" State="R" />
+  <Status Word="mbarambara" State="R" />
+  <Status Word="mbembengo" State="R" />
+  <Status Word="mbeni" State="R" />
+  <Status Word="mbeti" State="R" />
+  <Status Word="mbeto" State="R" />
+  <Status Word="mbi" State="R" />
+  <Status Word="mbi-a" State="R" />
+  <Status Word="mbi-ee" State="R" />
+  <Status Word="mbi-oo" State="R" />
+  <Status Word="mbuki" State="R" />
+  <Status Word="me" State="R" />
+  <Status Word="menga" State="R">
+    <SpecificCase>Menga</SpecificCase>
+  </Status>
+  <Status Word="mikmas" State="R">
+    <SpecificCase>Mikmas</SpecificCase>
+  </Status>
+  <Status Word="mile" State="R">
+    <SpecificCase>Mile</SpecificCase>
+  </Status>
+  <Status Word="mingi" State="R" />
+  <Status Word="miriam" State="R">
+    <SpecificCase>Miriam</SpecificCase>
+  </Status>
+  <Status Word="miro" State="R" />
+  <Status Word="mo" State="R" />
+  <Status Word="mo-a" State="R" />
+  <Status Word="moab" State="R">
+    <SpecificCase>Moab</SpecificCase>
+  </Status>
+  <Status Word="moise" State="R">
+    <SpecificCase>Moise</SpecificCase>
+  </Status>
+  <Status Word="molenge" State="R" />
+  <Status Word="mo-oo" State="R" />
+  <Status Word="mosoro" State="R" />
+  <Status Word="mu" State="R" />
+  <Status Word="mungo" State="R" />
+  <Status Word="mvene" State="R" />
+  <Status Word="na" State="R" />
+  <Status Word="napekoni" State="W" />
+  <Status Word="nazaret-ee" State="R">
+    <SpecificCase>Nazaret-ee</SpecificCase>
+  </Status>
+  <Status Word="nazir" State="R" />
+  <Status Word="nda" State="R" />
+  <Status Word="ndali" State="R" />
+  <Status Word="ndangoro" State="R" />
+  <Status Word="ndaperere" State="R" />
+  <Status Word="ndara" State="R" />
+  <Status Word="nde" State="R" />
+  <Status Word="ndembe" State="R" />
+  <Status Word="ndenge" State="R" />
+  <Status Word="ndia" State="R" />
+  <Status Word="ndo" State="R" />
+  <Status Word="otniel" State="R">
+    <SpecificCase>Otniel</SpecificCase>
+  </Status>
+  <Status Word="abango" State="R" />
+  <Status Word="pisidie" State="W">
+    <Correction>pisidii</Correction>
+  </Status>
+  <Status Word="rébecca" State="W">
+    <Correction>Rebecca</Correction>
+  </Status>
+  <Status Word="rebecca" State="R">
+    <SpecificCase>Rebecca</SpecificCase>
+  </Status>
+  <Status Word="saül" State="W">
+    <Correction>Saul</Correction>
+  </Status>
+  <Status Word="sedekias" State="W">
+    <Correction>Sedesias</Correction>
+  </Status>
+  <Status Word="sedesias" State="R">
+    <SpecificCase>Sedesias</SpecificCase>
+  </Status>
+  <Status Word="zerzes" State="W">
+    <Correction>zerses</Correction>
+  </Status>
+  <Status Word="ngu-kasa" State="R" />
+  <Status Word="wabango-li" State="R" />
+  <Status Word="wayenda" State="R" />
+  <Status Word="tengbingo" State="R" />
+  <Status Word="tiringo" State="R" />
+  <Status Word="ab" State="W" />
+  <Status Word="actes" State="R">
+    <SpecificCase>Actes</SpecificCase>
+  </Status>
+  <Status Word="aee" State="R">
+    <SpecificCase>Aee</SpecificCase>
+  </Status>
+  <Status Word="afaa" State="R" />
+  <Status Word="ahingo" State="W">
+    <Correction>ahinga</Correction>
+  </Status>
+  <Status Word="is" State="W" />
+  <Status Word="ahule" State="W">
+    <Correction>ahole</Correction>
+  </Status>
+  <Status Word="eglize" State="R" />
+  <Status Word="yoab" State="R">
+    <SpecificCase>Yoab</SpecificCase>
+  </Status>
+  <Status Word="soro" State="R" />
+  <Status Word="ngu-ingo" State="R" />
+  <Status Word="sanduku" State="R" />
+  <Status Word="tiri" State="R" />
+  <Status Word="songo" State="R" />
+  <Status Word="sarango" State="R" />
+  <Status Word="yayu" State="R" />
+  <Status Word="ndoye" State="R" />
+  <Status Word="genese" State="R">
+    <SpecificCase>Genese</SpecificCase>
+  </Status>
+  <Status Word="toto" State="R" />
+  <Status Word="nzi" State="R" />
+  <Status Word="pasi" State="R" />
+  <Status Word="sandaga" State="R" />
+  <Status Word="perse" State="R">
+    <SpecificCase>Perse</SpecificCase>
+  </Status>
+  <Status Word="pupu" State="R" />
+  <Status Word="dekongo" State="R" />
+  <Status Word="exode" State="R">
+    <SpecificCase>Exode</SpecificCase>
+  </Status>
+  <Status Word="ndani" State="R" />
+  <Status Word="nombres" State="R">
+    <SpecificCase>Nombres</SpecificCase>
+  </Status>
+  <Status Word="ruth" State="R">
+    <SpecificCase>Ruth</SpecificCase>
+  </Status>
+  <Status Word="ngu-nzapa" State="R" />
+  <Status Word="letter" State="W" />
+  <Status Word="kuä" State="R" />
+  <Status Word="kuä-li" State="R" />
+  <Status Word="pardon" State="R" />
+  <Status Word="sarai" State="R">
+    <SpecificCase>Sarai</SpecificCase>
+  </Status>
+  <Status Word="simeon" State="R">
+    <SpecificCase>Simeon</SpecificCase>
+  </Status>
+  <Status Word="tarse" State="R">
+    <SpecificCase>Tarse</SpecificCase>
+  </Status>
+  <Status Word="yoyada" State="R">
+    <SpecificCase>Yoyada</SpecificCase>
+  </Status>
+  <Status Word="ngbongboro" State="R" />
+  <Status Word="og" State="R">
+    <SpecificCase>Og</SpecificCase>
+  </Status>
+  <Status Word="potifar" State="R">
+    <SpecificCase>Potifar</SpecificCase>
+  </Status>
+  <Status Word="rahab" State="R">
+    <SpecificCase>Rahab</SpecificCase>
+  </Status>
+  <Status Word="dagon" State="R">
+    <SpecificCase>Dagon</SpecificCase>
+  </Status>
+  <Status Word="jean-baptiste" State="R">
+    <SpecificCase>Jean-Baptiste</SpecificCase>
+  </Status>
+  <Status Word="map" State="W" />
+  <Status Word="apondi" State="R" />
+  <Status Word="dalila" State="R">
+    <SpecificCase>Dalila</SpecificCase>
+  </Status>
+  <Status Word="dekite" State="R" />
+  <Status Word="osio" State="R" />
+  <Status Word="ota" State="R" />
+  <Status Word="p" State="W" />
+  <Status Word="one" State="W" />
+  <Status Word="on" State="W" />
+  <Status Word="oyeee" State="R" />
+  <Status Word="oko" State="R" />
+  <Status Word="of" State="W" />
+  <Status Word="oberze" State="R" />
+  <Status Word="obed" State="R">
+    <SpecificCase>Obed</SpecificCase>
+  </Status>
+  <Status Word="nzoni-oo" State="R" />
+  <Status Word="nzoni-a" State="R">
+    <SpecificCase>Nzoni-a</SpecificCase>
+  </Status>
+  <Status Word="nzoni" State="R" />
+  <Status Word="nzingo" State="R" />
+  <Status Word="perze" State="R">
+    <SpecificCase>Perze</SpecificCase>
+  </Status>
+  <Status Word="pete" State="R" />
+  <Status Word="pendere" State="R" />
+  <Status Word="pepe" State="R" />
+  <Status Word="pekoni" State="R" />
+  <Status Word="peko" State="R" />
+  <Status Word="pialo" State="R" />
+  <Status Word="pierre" State="R">
+    <SpecificCase>Pierre</SpecificCase>
+  </Status>
+  <Status Word="pika" State="R" />
+  <Status Word="pindiri" State="R" />
+  <Status Word="pitipiti" State="R" />
+  <Status Word="poem" State="W" />
+  <Status Word="polus" State="R">
+    <SpecificCase>Polus</SpecificCase>
+  </Status>
+  <Status Word="popo" State="R" />
+  <Status Word="portugesi" State="R">
+    <SpecificCase>Portugesi</SpecificCase>
+  </Status>
+  <Status Word="protokole" State="R" />
+  <Status Word="proverbes" State="R">
+    <SpecificCase>Proverbes</SpecificCase>
+  </Status>
+  <Status Word="psaumes" State="R">
+    <SpecificCase>Psaumes</SpecificCase>
+  </Status>
+  <Status Word="purpre" State="R" />
+  <Status Word="raba" State="R">
+    <SpecificCase>Raba</SpecificCase>
+  </Status>
+  <Status Word="ramot" State="R">
+    <SpecificCase>Ramot</SpecificCase>
+  </Status>
+  <Status Word="reference" State="W" />
+  <Status Word="right" State="W" />
+  <Status Word="rome" State="R">
+    <SpecificCase>Rome</SpecificCase>
+  </Status>
+  <Status Word="ruben" State="R">
+    <SpecificCase>Ruben</SpecificCase>
+  </Status>
+  <Status Word="rulo" State="R" />
+  <Status Word="salamis" State="R">
+    <SpecificCase>Salamis</SpecificCase>
+  </Status>
+  <Status Word="sambela" State="R" />
+  <Status Word="samson" State="R">
+    <SpecificCase>Samson</SpecificCase>
+  </Status>
+  <Status Word="samuel-ee" State="R">
+    <SpecificCase>Samuel-ee</SpecificCase>
+  </Status>
+  <Status Word="sango" State="R" />
+  <Status Word="sanze" State="R" />
+  <Status Word="sanzo" State="R" />
+  <Status Word="sara" State="R" />
+  <Status Word="sarate" State="R" />
+  <Status Word="sarepta" State="R">
+    <SpecificCase>Sarepta</SpecificCase>
+  </Status>
+  <Status Word="saul-ee" State="R">
+    <SpecificCase>Saul-ee</SpecificCase>
+  </Status>
+  <Status Word="sava" State="R" />
+  <Status Word="sawa" State="W">
+    <Correction>sava</Correction>
+  </Status>
+  <Status Word="saʼul" State="R">
+    <SpecificCase>Saʼul</SpecificCase>
+  </Status>
+  <Status Word="section" State="W" />
+  <Status Word="see" State="R" />
+  <Status Word="sefora" State="R">
+    <SpecificCase>Sefora</SpecificCase>
+  </Status>
+  <Status Word="selesii" State="R">
+    <SpecificCase>Selesii</SpecificCase>
+  </Status>
+  <Status Word="sem" State="R">
+    <SpecificCase>Sem</SpecificCase>
+  </Status>
+  <Status Word="senge" State="R" />
+  <Status Word="sengo" State="W">
+    <Correction>seengo</Correction>
+  </Status>
+  <Status Word="seengo" State="R" />
+  <Status Word="sentiure" State="W">
+    <Correction>senture</Correction>
+  </Status>
+  <Status Word="senture" State="R" />
+  <Status Word="sergio" State="R">
+    <SpecificCase>Sergio</SpecificCase>
+  </Status>
+  <Status Word="serzius" State="R">
+    <SpecificCase>Serzius</SpecificCase>
+  </Status>
+  <Status Word="sese" State="R" />
+  <Status Word="sese-ee" State="R">
+    <SpecificCase>Sese-ee</SpecificCase>
+  </Status>
+  <Status Word="set" State="R">
+    <SpecificCase>Set</SpecificCase>
+  </Status>
+  <Status Word="sewa" State="R" />
+  <Status Word="sewa-ee" State="R">
+    <SpecificCase>Sewa-ee</SpecificCase>
+  </Status>
+  <Status Word="sodome" State="R">
+    <SpecificCase>Sodome</SpecificCase>
+  </Status>
+  <Status Word="soj" State="W" />
+  <Status Word="soo" State="R" />
+  <Status Word="so-oo" State="R" />
+  <Status Word="sopo" State="R" />
+  <Status Word="story" State="R" />
+  <Status Word="sungba" State="R" />
+  <Status Word="ti" State="R" />
+  <Status Word="so" State="R" />
+  <Status Word="ni" State="R" />
+  <Status Word="si" State="R" />
+  <Status Word="ye" State="R" />
+  <Status Word="yeke" State="R" />
+  <Status Word="ya" State="R" />
+  <Status Word="zo" State="R" />
+  <Status Word="tongana" State="R" />
+  <Status Word="tënë" State="R" />
+  <Status Word="ndö" State="R" />
+  <Status Word="tere" State="R" />
+  <Status Word="ngu" State="R" />
+  <Status Word="ngangu" State="R" />
+  <Status Word="nga" State="R" />
+  <Status Word="zia" State="R" />
+  <Status Word="yanga" State="R" />
+  <Status Word="tene" State="R" />
+  <Status Word="tongaso" State="R" />
+  <Status Word="da" State="R" />
+  <Status Word="sioni" State="R" />
+  <Status Word="ngoi" State="R" />
+  <Status Word="titene" State="R" />
+  <Status Word="taa" State="R" />
+  <Status Word="wali" State="R" />
+  <Status Word="use" State="R" />
+  <Status Word="wa" State="R" />
+  <Status Word="zi" State="R" />
+  <Status Word="zendo" State="R" />
+  <Status Word="ngia" State="R" />
+  <Status Word="nduru" State="R" />
+  <Status Word="ngba" State="R" />
+  <Status Word="wâ" State="R" />
+  <Status Word="nduzu" State="R" />
+  <Status Word="ngonzo" State="R" />
+  <Status Word="wala" State="R" />
+  <Status Word="yongoro" State="R" />
+  <Status Word="te" State="R" />
+  <Status Word="tokua" State="R" />
+  <Status Word="vundu" State="R" />
+  <Status Word="voro" State="R" />
+  <Status Word="sigigi" State="R" />
+  <Status Word="singila" State="R" />
+  <Status Word="tambula" State="R" />
+  <Status Word="siokpari" State="R" />
+  <Status Word="tufa" State="R" />
+  <Status Word="ngbaa" State="R" />
+  <Status Word="ngbii" State="R" />
+  <Status Word="wungo" State="R" />
+  <Status Word="yangbo" State="R" />
+  <Status Word="tanga" State="R" />
+  <Status Word="siriri" State="R" />
+  <Status Word="to" State="R" />
+  <Status Word="yingo" State="R" />
+  <Status Word="yaka" State="R" />
+  <Status Word="turugu" State="R" />
+  <Status Word="dabe" State="R" />
+  <Status Word="nero" State="R">
+    <SpecificCase>Nero</SpecificCase>
+  </Status>
+  <Status Word="nil" State="R">
+    <SpecificCase>Nil</SpecificCase>
+  </Status>
+  <Status Word="the" State="W" />
+  <Status Word="yese" State="R">
+    <SpecificCase>Yese</SpecificCase>
+  </Status>
+  <Status Word="zetro" State="R">
+    <SpecificCase>Zetro</SpecificCase>
+  </Status>
+  <Status Word="sihon" State="R">
+    <SpecificCase>Sihon</SpecificCase>
+  </Status>
+  <Status Word="epafrodite" State="R">
+    <SpecificCase>Epafrodite</SpecificCase>
+  </Status>
+  <Status Word="ndo-wâ" State="R" />
+  <Status Word="tapande" State="R" />
+  <Status Word="tera" State="R">
+    <SpecificCase>Tera</SpecificCase>
+  </Status>
+  <Status Word="tumbango" State="R" />
+  <Status Word="warongo-nginza" State="R" />
+  <Status Word="apocalypse" State="R">
+    <SpecificCase>Apocalypse</SpecificCase>
+  </Status>
+  <Status Word="da-kanga" State="R" />
+  <Status Word="ecclesiaste" State="R">
+    <SpecificCase>Ecclesiaste</SpecificCase>
+  </Status>
+  <Status Word="enee" State="R">
+    <SpecificCase>Enee</SpecificCase>
+  </Status>
+  <Status Word="gbengo" State="R" />
+  <Status Word="levitique" State="R">
+    <SpecificCase>Levitique</SpecificCase>
+  </Status>
+  <Status Word="mbeti-limo" State="R">
+    <SpecificCase>Mbeti-limo</SpecificCase>
+  </Status>
+  <Status Word="pafos" State="R">
+    <SpecificCase>Pafos</SpecificCase>
+  </Status>
+  <Status Word="panel" State="W" />
+  <Status Word="sigi" State="R" />
+  <Status Word="sisra" State="R">
+    <SpecificCase>Sisra</SpecificCase>
+  </Status>
+  <Status Word="tëne" State="W">
+    <Correction>tënë</Correction>
+  </Status>
+  <Status Word="superman" State="R">
+    <SpecificCase>Superman</SpecificCase>
+  </Status>
+  <Status Word="wali-nganga" State="R" />
+  <Status Word="wali-nzapa" State="R" />
+  <Status Word="wasongo-dunia" State="R" />
+  <Status Word="wasongo-mbi" State="R" />
+  <Status Word="zame" State="R">
+    <SpecificCase>Zame</SpecificCase>
+  </Status>
+  <Status Word="zarden" State="R" />
+  <Status Word="zongo" State="R" />
+  <Status Word="akuä-li" State="R" />
+  <Status Word="and" State="W" />
+  <Status Word="awe-a" State="R" />
+  <Status Word="balabala" State="R">
+    <SpecificCase>Balabala</SpecificCase>
+  </Status>
+  <Status Word="beree" State="R">
+    <SpecificCase>Beree</SpecificCase>
+  </Status>
+  <Status Word="bible" State="R">
+    <SpecificCase>Bible</SpecificCase>
+  </Status>
+  <Status Word="comics" State="R">
+    <SpecificCase>Comics</SpecificCase>
+  </Status>
+  <Status Word="cook" State="R">
+    <SpecificCase>Cook</SpecificCase>
+  </Status>
+  <Status Word="dc" State="R">
+    <SpecificCase>DC</SpecificCase>
+  </Status>
+  <Status Word="deuteronome" State="R">
+    <SpecificCase>Deuteronome</SpecificCase>
+  </Status>
+  <Status Word="doug" State="R">
+    <SpecificCase>Doug</SpecificCase>
+  </Status>
+  <Status Word="ezee" State="R">
+    <SpecificCase>Ezee</SpecificCase>
+  </Status>
+  <Status Word="from" State="W" />
+  <Status Word="in" State="W" />
+  <Status Word="institute" State="R">
+    <SpecificCase>Institute</SpecificCase>
+  </Status>
+  <Status Word="it" State="W" />
+  <Status Word="karte" State="R">
+    <SpecificCase>Karte</SpecificCase>
+  </Status>
+  <Status Word="last" State="W" />
+  <Status Word="le-mbeti" State="R" />
+  <Status Word="life" State="R">
+    <SpecificCase>Life</SpecificCase>
+  </Status>
+  <Status Word="lo-a" State="R" />
+  <Status Word="middle" State="W" />
+  <Status Word="neko" State="R">
+    <SpecificCase>Neko</SpecificCase>
+  </Status>
+  <Status Word="nge" State="R" />
+  <Status Word="nikango" State="R" />
+  <Status Word="page" State="W" />
+  <Status Word="pages" State="W" />
+  <Status Word="paran" State="R">
+    <SpecificCase>Paran</SpecificCase>
+  </Status>
+  <Status Word="pardon-ee" State="R">
+    <SpecificCase>Pardon-ee</SpecificCase>
+  </Status>
+  <Status Word="so-a" State="R" />
+  <Status Word="so-ee" State="R" />
+  <Status Word="tabor" State="R">
+    <SpecificCase>Tabor</SpecificCase>
+  </Status>
+  <Status Word="tipoyi" State="R" />
+  <Status Word="two" State="W" />
+  <Status Word="vaa" State="R" />
+  <Status Word="version" State="W" />
+  <Status Word="vuma" State="R" />
+  <Status Word="wabatango-lo" State="R" />
+  <Status Word="wadengo-buze" State="R" />
+  <Status Word="walekengo-mbeti" State="R">
+    <SpecificCase>Walekengo-mbeti</SpecificCase>
+  </Status>
+  <Status Word="wasungo-mbeti" State="R" />
+  <Status Word="word" State="R">
+    <SpecificCase>Word</SpecificCase>
+  </Status>
+  <Status Word="yabin" State="R">
+    <SpecificCase>Yabin</SpecificCase>
+  </Status>
+  <Status Word="yokebed" State="R">
+    <SpecificCase>Yokebed</SpecificCase>
+  </Status>
+  <Status Word="aii" State="R">
+    <SpecificCase>Aii</SpecificCase>
+  </Status>
+  <Status Word="ale-mbeti" State="R" />
+  <Status Word="amapo" State="R" />
+  <Status Word="ambirimbiri" State="R" />
+  <Status Word="ame" State="R" />
+  <Status Word="amokonzi" State="R" />
+  <Status Word="asarate" State="R" />
+  <Status Word="asule" State="R" />
+  <Status Word="ataa-tënë" State="R" />
+  <Status Word="awa-fango-tënë" State="W">
+    <Correction>awafango-tënë</Correction>
+  </Status>
+  <Status Word="awafango-tënë" State="R" />
+  <Status Word="ayeke-a" State="R" />
+  <Status Word="back" State="W" />
+  <Status Word="bezwen" State="R" />
+  <Status Word="bingbi" State="R" />
+  <Status Word="book" State="W" />
+  <Status Word="bottom" State="W" />
+  <Status Word="c" State="R">
+    <SpecificCase>C</SpecificCase>
+  </Status>
+  <Status Word="copy" State="W" />
+  <Status Word="correct" State="W" />
+  <Status Word="corrected" State="W" />
+  <Status Word="cover" State="W" />
+  <Status Word="current" State="W" />
+  <Status Word="paaardon" State="R">
+    <SpecificCase>Paaardon</SpecificCase>
+  </Status>
+  <Status Word="zaza" State="R" />
+  <Status Word="ʻzo" State="R" />
+  <Status Word="zabulon" State="R">
+    <SpecificCase>Zabulon</SpecificCase>
+  </Status>
+  <Status Word="yedidia" State="R">
+    <SpecificCase>Yedidia</SpecificCase>
+  </Status>
+  <Status Word="yafet" State="R">
+    <SpecificCase>Yafet</SpecificCase>
+  </Status>
+  <Status Word="yael" State="R">
+    <SpecificCase>Yael</SpecificCase>
+  </Status>
+  <Status Word="yabesh" State="R">
+    <SpecificCase>Yabesh</SpecificCase>
+  </Status>
+  <Status Word="wrong" State="W" />
+  <Status Word="wazingo-e" State="R" />
+  <Status Word="wayango-sanddaga" State="W">
+    <Correction>wayango-sandaga</Correction>
+  </Status>
+  <Status Word="wayango-sandanga" State="W">
+    <Correction>wayango-sandaga</Correction>
+  </Status>
+  <Status Word="wavorongo-baal" State="R">
+    <SpecificCase>wavorongo-Baal</SpecificCase>
+  </Status>
+  <Status Word="wasongo-lo" State="R" />
+  <Status Word="warongo-ale" State="R" />
+  <Status Word="warango-tere" State="W">
+    <Correction>warango tere</Correction>
+  </Status>
+  <Status Word="warango tere" State="R" />
+  <Status Word="wangangu-li" State="R">
+    <SpecificCase>Wangangu-li</SpecificCase>
+  </Status>
+  <Status Word="wamungo-peko" State="R" />
+  <Status Word="wamandango-mbeti" State="R" />
+  <Status Word="walombe-a" State="R" />
+  <Status Word="walekengo-da" State="R" />
+  <Status Word="wakango-zo" State="R" />
+  <Status Word="wakango-lôro" State="R" />
+  <Status Word="wakango-jesus" State="R">
+    <SpecificCase>wakango-Jesus</SpecificCase>
+  </Status>
+  <Status Word="wakango-bongo" State="R" />
+  <Status Word="wafango-tënë" State="R" />
+  <Status Word="wabatango-mo" State="R" />
+  <Status Word="wabatango-ita" State="R" />
+  <Status Word="wabatango-e" State="R" />
+  <Status Word="wabatango-da" State="R" />
+  <Status Word="wabatango-azo" State="R" />
+  <Status Word="wabatango-anyama" State="R" />
+  <Status Word="under" State="W" />
+  <Status Word="title" State="W" />
+  <Status Word="tinga" State="W">
+    <Correction>tingo</Correction>
+  </Status>
+  <Status Word="teresh" State="R">
+    <SpecificCase>Teresh</SpecificCase>
+  </Status>
+  <Status Word="tel-abib" State="R">
+    <SpecificCase>Tel-Abib</SpecificCase>
+  </Status>
+  <Status Word="tawa" State="R" />
+  <Status Word="tambula-ee" State="R" />
+  <Status Word="tade" State="W">
+    <Correction>Tadee</Correction>
+  </Status>
+  <Status Word="tadee" State="R">
+    <SpecificCase>Tadee</SpecificCase>
+  </Status>
+  <Status Word="syrii" State="W">
+    <Correction>Sirii</Correction>
+  </Status>
+  <Status Word="sofar" State="R">
+    <SpecificCase>Sofar</SpecificCase>
+  </Status>
+  <Status Word="sioni-a" State="R" />
+  <Status Word="siokpari-oo" State="R" />
+  <Status Word="sindi" State="R" />
+  <Status Word="silo" State="R">
+    <SpecificCase>Silo</SpecificCase>
+  </Status>
+  <Status Word="sila" State="W">
+    <Correction>Silas</Correction>
+  </Status>
+  <Status Word="si-a" State="R" />
+  <Status Word="shemaya" State="R">
+    <SpecificCase>Shemaya</SpecificCase>
+  </Status>
+  <Status Word="shekem" State="R">
+    <SpecificCase>Shekem</SpecificCase>
+  </Status>
+  <Status Word="pardon-oo" State="R" />
+  <Status Word="pardon-a" State="R">
+    <SpecificCase>Pardon-a</SpecificCase>
+  </Status>
+  <Status Word="olive" State="R" />
+  <Status Word="nzapaʼ" State="R">
+    <SpecificCase>Nzapaʼ</SpecificCase>
+  </Status>
+  <Status Word="nyon-oo" State="R" />
+  <Status Word="nyen-a" State="R" />
+  <Status Word="nguru" State="R" />
+  <Status Word="ngu-nzapa-ee" State="R">
+    <SpecificCase>Ngu-Nzapa-ee</SpecificCase>
+  </Status>
+  <Status Word="ngunde" State="R" />
+  <Status Word="ngumbaya" State="W">
+    <Correction>gumbaya</Correction>
+  </Status>
+  <Status Word="ngen" State="R" />
+  <Status Word="ngbango" State="W">
+    <Correction>ngbangbo</Correction>
+  </Status>
+  <Status Word="ngbaa-wali" State="R" />
+  <Status Word="negev" State="R">
+    <SpecificCase>Negev</SpecificCase>
+  </Status>
+  <Status Word="neftali" State="R">
+    <SpecificCase>Neftali</SpecificCase>
+  </Status>
+  <Status Word="nebo" State="R">
+    <SpecificCase>Nebo</SpecificCase>
+  </Status>
+  <Status Word="ndumbu" State="R" />
+  <Status Word="nazpa" State="W">
+    <Correction>Nzapa</Correction>
+  </Status>
+  <Status Word="molenge-gbia" State="R" />
+  <Status Word="mmmm" State="R">
+    <SpecificCase>Mmmm</SpecificCase>
+  </Status>
+  <Status Word="mbiʼke" State="R" />
+  <Status Word="mars" State="R">
+    <SpecificCase>Mars</SpecificCase>
+  </Status>
+  <Status Word="makonzi-wali" State="R" />
+  <Status Word="lipandaa" State="R" />
+  <Status Word="lege-a" State="R" />
+  <Status Word="la" State="W">
+    <Correction>na</Correction>
+  </Status>
+  <Status Word="kpengbango" State="R" />
+  <Status Word="katikati" State="R" />
+  <Status Word="karakara" State="R" />
+  <Status Word="kaife" State="R">
+    <SpecificCase>Kaife</SpecificCase>
+  </Status>
+  <Status Word="kaa" State="R" />
+  <Status Word="joe" State="R">
+    <SpecificCase>Joe</SpecificCase>
+  </Status>
+  <Status Word="jesus-oo" State="R">
+    <SpecificCase>Jesus-oo</SpecificCase>
+  </Status>
+  <Status Word="jesus-ee" State="R">
+    <SpecificCase>Jesus-ee</SpecificCase>
+  </Status>
+  <Status Word="jesus-a" State="R">
+    <SpecificCase>Jesus-a</SpecificCase>
+  </Status>
+  <Status Word="identity" State="W" />
+  <Status Word="hosana" State="R">
+    <SpecificCase>Hosana</SpecificCase>
+  </Status>
+  <Status Word="here" State="W" />
+  <Status Word="fion" State="R" />
+  <Status Word="eʼke" State="R" />
+  <Status Word="erope" State="R">
+    <SpecificCase>Erope</SpecificCase>
+  </Status>
+  <Status Word="english" State="R">
+    <SpecificCase>English</SpecificCase>
+  </Status>
+  <Status Word="eemm" State="R">
+    <SpecificCase>Eemm</SpecificCase>
+  </Status>
+  <Status Word="dingingo" State="R" />
+  <Status Word="desk" State="W" />
+  <Status Word="asulee" State="R" />
+  <Status Word="alfee" State="R">
+    <SpecificCase>Alfee</SpecificCase>
+  </Status>
+  <Status Word="zafa" State="R">
+    <SpecificCase>Zafa</SpecificCase>
+  </Status>
+  <Status Word="ni-a" State="R" />
+</SpellingStatus>
