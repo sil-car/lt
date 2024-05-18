@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-framerate=5  # fps
+framerate=23  # fps
 usage="usage: $0 FILE.MP4"
 if [[ $1 == '-h' || $1 == '--help' ]]; then
     echo "$usage"
