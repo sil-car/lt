@@ -11,10 +11,11 @@ elif [[ -z "$1" ]]; then
     exit 1
 fi
 
-infile="$1"
-filename="$(basename "$infile")"
-filestem="${filename%.*}"
-ffmpeg -i "$infile" \
-    -vf "scale=176:144:force_original_aspect_ratio=1,pad=176:144:(ow-iw)/2:(oh-ih)/2" \
-    -r "$framerate" -ar 8000 -ab 4750 -ac 1 \
-    "${filestem}.3gp"
+for infile in "${@}"; do
+    filename="$(basename "$infile")"
+    filestem="${filename%.*}"
+    ffmpeg -i "$infile" \
+        -vf "scale=176:144:force_original_aspect_ratio=1,pad=176:144:(ow-iw)/2:(oh-ih)/2" \
+        -r "$framerate" -ar 8000 -ab 4750 -ac 1 \
+        "${filestem}.3gp"
+done
